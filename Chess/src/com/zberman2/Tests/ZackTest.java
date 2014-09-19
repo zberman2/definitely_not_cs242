@@ -69,8 +69,7 @@ public class ZackTest {
         char file = zack.getFile();
         int rank = zack.getRank();
 
-        // move in L shapes as described above, but to empty spaces, or
-        // spaces occupied by the opponent
+        // more modular test cases
         assertEquals(true,
                 zack.canMove((char) (file + 2), rank, chessboard));
         assertEquals(true,

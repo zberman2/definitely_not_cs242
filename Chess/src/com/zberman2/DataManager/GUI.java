@@ -33,6 +33,8 @@ public class GUI {
     // contains the images of pieces for the game
     private Image[][] chessPieceImages = new Image[2][6];
 
+//    private Image victoryBadge;
+
     // JPanel which will house chessboardSpaces
     private JPanel chessboard;
 
@@ -187,6 +189,9 @@ public class GUI {
      */
     private void drawFileLabels() {
         // empty label before labels begin
+        JLabel corner = new JLabel("");
+//        corner.setIcon(new ImageIcon(victoryBadge));
+        chessboard.add(corner);
         chessboard.add(new JLabel(""));
         for (char x = 'a'; x < ('a' + 8); x++) {
             JLabel fileLabel = new JLabel("" + Character.toUpperCase(x),
@@ -196,7 +201,7 @@ public class GUI {
             chessboard.add(fileLabel);
         }
         // empty label after labels end
-        chessboard.add(new JLabel(""));
+        chessboard.add(corner);
     }
 
     /**
@@ -246,11 +251,11 @@ public class GUI {
      */
     private final void createImages() {
         try {
-            URL url = new URL(CHESS_PIECES_URL);
-            BufferedImage bi = ImageIO.read(url);
+            URL piecesUrl = new URL(CHESS_PIECES_URL);
+            BufferedImage piecesBufferedImage = ImageIO.read(piecesUrl);
             for (int i = 0; i < 2; i++) {
                 for (int j = 0; j < 6; j++) {
-                    chessPieceImages[i][j] = bi.getSubimage(
+                    chessPieceImages[i][j] = piecesBufferedImage.getSubimage(
                             j * 64, i * 64, 64, 64);
                 }
             }
@@ -258,6 +263,17 @@ public class GUI {
             e.printStackTrace();
             System.exit(1);
         }
+
+//        try {
+//            URL badgeUrl = new URL("http://grfx.cstv.com/schools/ill/graphics/identity-release/victorybadge.jpg");
+//            BufferedImage badgeBufferedImage = ImageIO.read(badgeUrl);
+//            victoryBadge = badgeBufferedImage;
+//            victoryBadge.getScaledInstance(64, 64, Image.SCALE_SMOOTH);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            System.exit(1);
+//        }
+
     }
 
 

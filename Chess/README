@@ -9,7 +9,7 @@ Ideas for refactoring:
 
 TODO: Refactor and Polish Test Suit
     add more cases for check/checkmate/stalemate in Master
-TODO: Doxygen on ews machine
+    make test cases more modular (one assert per test)
 ------------------------------------------------------------------------
 
 PROJECT TITLE: Chess

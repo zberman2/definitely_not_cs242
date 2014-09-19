@@ -16,7 +16,7 @@ public class TerminalWindowGUI {
 
     public void printBoard() {
         // print labels of the columns above the board
-        printColumnLabels();
+        printFileLabels();
         printTopBorder();
         for (int y = chessboard.getyDimension(); y >= 1; y--) {
             // spaces are 3 lines in height
@@ -26,14 +26,14 @@ public class TerminalWindowGUI {
         }
         System.out.println();
         // print column labels below the board too
-        printColumnLabels();
+        printFileLabels();
     }
 
     /**
      * Prints characters which correspond to the x coordinates
      * of the board.
      */
-    private void printColumnLabels() {
+    private void printFileLabels() {
         for (char x = 'a'; x < ('a' + chessboard.getxDimension()); x++) {
             System.out.print("      " + x);
         }
