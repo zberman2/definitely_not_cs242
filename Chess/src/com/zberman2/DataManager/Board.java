@@ -2,6 +2,7 @@ package com.zberman2.DataManager;
 
 import com.zberman2.Pieces.Piece;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 /**
@@ -9,29 +10,39 @@ import java.util.ArrayList;
  * Created by Zack Berman on 9/10/2014.
  */
 public class Board {
-    private int xDimension = 8; // spaces in the x direction
-    private int yDimension = 8; // spaces in the y dimension
-    private int numSides = 4;   // defines the shape of the board
+    private int xDimension; // spaces in the x direction
+    private int yDimension; // spaces in the y dimension
+    private int numSides;   // defines the shape of the board
     private ArrayList<Piece> pieces; // list of chess pieces on the board
 
     /**
      * Blank constructor
      */
-    public Board() {}
+    public Board(int xDimension, int yDimension, int numSides) {
+        this.xDimension = xDimension;
+        this.yDimension = yDimension;
+        this.numSides = numSides;
+    }
 
     /**
      * Constructor which accepts an ArrayList of pieces
+     *
      * @param pieces ArrayList of initial chess pieces to be
      *               placed on the board
      */
-    public Board(ArrayList<Piece> pieces) {
+    public Board(ArrayList<Piece> pieces,
+                 int xDimension, int yDimension, int numSides) {
         this.pieces = pieces;
+        this.xDimension = xDimension;
+        this.yDimension = yDimension;
+        this.numSides = numSides;
     }
 
     /**
      * Setter for the ArrayList of pieces.
      * Used with the blank constructor to construct a blank board, and
      * later add the pieces.
+     *
      * @param pieces ArrayList of initial chess pieces to be
      *               placed on the board
      */
@@ -41,151 +52,169 @@ public class Board {
 
     /**
      * Getter for pieces
+     *
      * @return ArrayList of pieces on the board
      */
-    public ArrayList<Piece> getPieces() { return pieces; }
+    public ArrayList<Piece> getPieces() {
+        return pieces;
+    }
 
     /**
      * Getter for y dimension of the board
+     *
      * @return yDimension
      */
-    public int getyDimension() { return yDimension; }
+    public int getyDimension() {
+        return yDimension;
+    }
 
     /**
      * Getter for x dimension of the board
+     *
      * @return xDimension
      */
-    public int getxDimension() { return xDimension; }
+    public int getxDimension() {
+        return xDimension;
+    }
 
     /**
      * Getter for number of sides of the board
      * (not used, but may be useful if game is changed from a standard
      * square board to something else)
+     *
      * @return number of sides on the chess board
      */
-    public int getNumSides() { return numSides; }
+    public int getNumSides() {
+        return numSides;
+    }
 
     /**
      * Method which iterates through the list of pieces and
      * determines if there is a piece at (x, y) on the board.
      * If there is, it returns that piece, null otherwise.
-     * @param x x coordinate
-     * @param y y coordinate
-     * @return The piece at (x, y), null if one doesn't exist
+     *
+     * @param file file coordinate
+     * @param rank rank coordinate
+     * @return The piece at (file, rank), null if one doesn't exist
      */
-    public Piece at(char x, int y) {
+    public Piece at(char file, int rank) {
         for (Piece piece : pieces) {
-            if (piece.isAt(x,y)) return piece;
+            if (piece.isAt(file, rank)) return piece;
         }
         return null;
+    }
+
+    /**
+     * Given a diagonal path, this method determines if there are any pieces
+     * located between the Piece's current position and its destination,
+     * (newFile, newRank)
+     * @param newFile file coordinate of new space
+     * @param newRank rank coordinate of new space
+     * @param piece reference to the piece trying to move
+     * @return true if there are no Pieces in the way
+     */
+    public boolean isOpenDiagonalPath(char newFile, int newRank, Piece piece) {
+        if (!piece.isDiagonalMotion(newFile, newRank)) return false;
+        int difference = piece.fileDifference(newFile);
+        // fileDifference and rankDifference will return the same value for
+        // diagonal paths
+
+        // incrementX will be 1 if newFile > current file coordinate, and -1 if not
+        int incrementFile = (newFile - piece.getFile()) / difference;
+        // incrementY will be 1 if newRank > current rank coordinate, and -1 if not
+        int incrementRank = (newRank - piece.getRank()) / difference;
+
+        // check all spaces in a diagonal path between (file, rank)
+        // and (newFile, newRank)
+        for (int i = 2; i <= difference; i++) {
+            int currentFile = piece.getFile() + (incrementFile*i) - incrementFile;
+            int currentRank = piece.getRank() + (incrementRank*i) - incrementRank;
+
+            // return false if we find a piece at (currentFile, currentRank)
+            if (at((char) currentFile, currentRank) != null) return false;
+        }
+        // no pieces found
+        return true;
+    }
+
+    /**
+     * Given a vertical path, this method determines if there are any pieces
+     * located between the Piece's current position and its destination, (a, b)
+     * @param newFile file coordinate of new space
+     * @param newRank rank coordinate of new space
+     * @param piece reference to the piece trying to move
+     * @return true if there are no Pieces in the way
+     */
+    public boolean isOpenVerticalPath(char newFile, int newRank, Piece piece) {
+        if (!piece.isVerticalMotion(newFile, newRank)) return false;
+        // fileDifference is 0 for vertical paths
+        int difference = piece.rankDifference(newRank);
+
+        // incrementY will be 1 if newRank > rank, -1 if not
+        int incrementRank = (newRank - piece.getRank()) / difference;
+
+        // check all spaces in a vertical path between (file, rank)
+        // and (newFile, newRank)
+        for (int i = 2; i <= difference; i++) {
+            int currentRank = piece.getRank() + (incrementRank*i) - incrementRank;
+
+            // return false if we find a piece at (currentFile, currentRank)
+            if (at(newFile, currentRank) != null) return false;
+        }
+        // no pieces found
+        return true;
+    }
+
+    /**
+     * Given a horizontal path, this method determines if there are any pieces
+     * located between the Piece's current position and its destination, (a, b)
+     * @param newFile file coordinate of new space
+     * @param newRank rank coordinate of new space
+     * @param piece reference to the piece trying to move
+     * @return true if there are no Pieces in the way
+     */
+    public boolean isOpenHorizontalPath(char newFile, int newRank, Piece piece) {
+        if (!piece.isHorizontalMotion(newFile, newRank)) return false;
+        // rankDifference is 0 for horizontal paths
+        int difference = piece.fileDifference(newFile);
+
+        // incrementX will be 1 if newFile > file, -1 if not
+        int incrementFile = (newFile - piece.getFile()) / difference;
+
+        // check all spaces in a horizontal path between (file, rank)
+        // and (newFile, newRank)
+        for (int i = 2; i <= difference; i++) {
+            int currentFile = piece.getFile() + (incrementFile*i) - incrementFile;
+
+            // return false if we find a piece at (currentFile, currentRank)
+            if (at((char) currentFile, newRank) != null) return false;
+        }
+        // no pieces found
+        return true;
     }
 
     /**
      * Prints terminal window chess board
      */
     public void printBoard() {
-        // print labels of the columns above the board
-        printColumnLabels();
-        printTopBorder();
-        for (int y = 1; y <= yDimension; y++) {
-            // spaces are 3 lines in height
-            printTopOfSpaces(y);
-            printMiddleOfSpaces(y);
-            printBottomOfSpaces(y);
-        }
-        System.out.println();
-        // print column labels below the board too
-        printColumnLabels();
+        TerminalWindowGUI gui = new TerminalWindowGUI(this);
+        gui.printBoard();
     }
 
     /**
-     * Prints characters which correspond to the x coordinates
-     * of the board.
+     * Creates a new GUI object and displays a chessboard GUI
      */
-    private void printColumnLabels() {
-        for (char x = 'a'; x < ('a' + xDimension); x++) {
-            System.out.print("      " + x);
-        }
-        System.out.println(); // new line after labels are printed
-    }
+    public void drawBoard() {
+        GUI gui = new GUI(this);
+        JFrame f = new JFrame("Chess Board");
+        f.add(gui.getGUI());
+        f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-    /**
-     * Prints a series of underscores which mark the top border of the board
-     */
-    private void printTopBorder() {
-        System.out.print("    "); //indent
-        for (char x = 'a'; x < ('a' + xDimension); x++) {
-            System.out.print("______ ");
-        }
-        System.out.println();
-    }
-
-    /**
-     * Prints the top third of the spaces on the board.
-     */
-    private void printTopOfSpaces(int row) {
-        boolean fill; // true if space is colored in
-        // odd rows start with a black space, even with a white space
-        if (row % 2 == 1) fill = true;
-        else fill = false;
-
-        System.out.print("   |"); //indent plus left border of space
-        for (char x = 'a'; x < ('a' + xDimension); x++) {
-            if (fill) System.out.print("______|");
-            else System.out.print("      |");
-
-            fill = !fill; // toggle fill
-        }
-        System.out.println();
-    }
-
-    /**
-     * Prints the middle third of the spaces on the board. This section will
-     * either be blank, or contain a chess piece
-     * @param row y coordinate on the board
-     */
-    private void printMiddleOfSpaces(int row) {
-        boolean fill; // true if space is colored in
-        // odd rows start with a black space, even with a white space
-        if (row % 2 == 1) fill = true;
-        else fill = false;
-
-        // indent plus row number plus left border of space
-        System.out.print(" " + row + " |");
-        for (char x = 'a'; x < ('a' + xDimension); x++) {
-            Piece temp = at(x, row);
-            if (temp == null) {
-                // put underscores in the space if fill, spaces otherwise
-                if (fill) System.out.print("______|");
-                else System.out.print("      |");
-            }
-            else { // print the piece in chess notation
-                String str;
-                if (fill) str = "__";
-                else str = "  ";
-
-                // place algebraic chess notation for the piece in the
-                // middle of the space
-                str += temp.colorNotation();
-                str += temp.pieceNotation();
-
-                if (fill) str += "__|";
-                else str += "  |";
-                System.out.print(str);
-            }
-            fill = !fill; // toggle fill
-        }
-        System.out.println(" " + row);
-    }
-
-    /**
-     * Prints the bottom third of the spaces on the board
-     */
-    private void printBottomOfSpaces(int row) {
-        System.out.print("   |"); //indent plus left border of space
-        for (char x = 'a'; x < ('a' + xDimension); x++) {
-            System.out.print("______|");
-        }
-        System.out.println();
+        // ensures the frame is the minimum size it needs to be
+        // in order display the components within it
+        f.pack();
+        // ensures the minimum size is enforced.
+        f.setMinimumSize(f.getSize());
+        f.setVisible(true);
     }
 }

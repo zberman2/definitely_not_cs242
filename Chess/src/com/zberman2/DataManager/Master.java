@@ -15,13 +15,13 @@ public class Master {
     private Board chessboard; // the master has access to the board
 
     /**
-     * No args constructor which initializes a blank board, populates
+     * No args constructor which initializes a blank standard board, populates
      * a standard list of chess pieces, and adds them to the board.
      */
     public Master() {
-        this.chessboard = new Board();
+        this.chessboard = new StandardBoard();
         ArrayList<Piece> pieces;
-        Initializer init = new Initializer(chessboard);
+        Initializer init = new StandardInitializer(chessboard);
         pieces = init.initializePieces();
         chessboard.setPieces(pieces);
     }
@@ -38,29 +38,31 @@ public class Master {
      */
     public void printBoard() { chessboard.printBoard(); }
 
+    public void drawBoard() { chessboard.drawBoard(); }
+
     /**
      * Returns the chess piece at a certain space on the board
      * @param input string containing a pair of x and y
      *              coordinates
-     * @return Piece at (x, y) or null if none exists
+     * @return Piece at (file, rank) or null if none exists
      */
     public Piece findPiece(String input) {
-        char x = parseXVal(input);
-        int y = parseYVal(input);
-        return chessboard.at(x, y);
+        char file = parseFile(input);
+        int rank = parseRank(input);
+        return chessboard.at(file, rank);
     }
 
     /**
      * Entry method for moving a piece to a new space
      * @param piece Piece to be moved
-     * @param input String containing an (x, y) coordinate pair (i.e. the
+     * @param input String containing an (file, rank) coordinate pair (i.e. the
      *              space where piece is going to be moved to)
      * @return 0 for successful moves, -1 otherwise
      */
     public int move(Piece piece, String input) {
-        char x = parseXVal(input);
-        int y = parseYVal(input);
-        return move(piece, x, y);
+        char newFile = parseFile(input);
+        int newRank = parseRank(input);
+        return move(piece, newFile, newRank);
     }
 
     /**
@@ -68,32 +70,32 @@ public class Master {
      * and moves it there if can. Otherwise, it will not move the piece,
      * and print an error report.
      * @param piece Piece to be moved
-     * @param x x coordinate of new space
-     * @param y y coordinate of new space
+     * @param newFile file coordinate of new space
+     * @param newRank rank coordinate of new space
      * @return 0 if successful, -1 if not
      */
-    public int move(Piece piece, char x, int y) {
+    public int move(Piece piece, char newFile, int newRank) {
         // store starting position in case we need to revert to old location
-        char oldX = piece.getX();
-        int oldY = piece.getY();
+        char oldFile = piece.getFile();
+        int oldRank = piece.getRank();
 
-        // test if (x, y) is the current space
-        if (oldX == x && oldY == y) { return -1; }
+        // test if (file, rank) is the current space
+        if (oldFile == newFile && oldRank == newRank) { return -1; }
 
-        // see if moving to (x, y) is legal
-        if (!piece.canMove(x, y, chessboard)) { return -1; }
+        // see if moving to (file, rank) is legal
+        if (!piece.canMove(newFile, newRank, chessboard)) { return -1; }
 
-        // locate the piece at (x, y) if one exists, and capture it
-        Piece captured = chessboard.at(x, y);
+        // locate the piece at (file, rank) if one exists, and capture it
+        Piece captured = chessboard.at(newFile, newRank);
         if (captured != null) { captured.setIsCapturedTrue(); }
 
-        // move the piece to (x, y)
-        piece.move(x, y);
+        // move the piece to (file, rank)
+        piece.move(newFile, newRank);
 
-        // test if moving to (x, y) leave the King in check
+        // test if moving to (file, rank) leave the King in check
         if (isCheck(piece.getColor()) > 0) {
             // return piece to its former position
-            piece.move(oldX, oldY);
+            piece.move(oldFile, oldRank);
             // return the captured piece to not captured
             if (captured != null) captured.setIsCapturedFalse();
             return -1;
@@ -111,20 +113,20 @@ public class Master {
     public int isCheck(int color) {
         Piece king = findKing(color);
 
-        char x = king.getX();
-        int y = king.getY();
-        int retval = 0;
+        char file = king.getFile();
+        int rank = king.getRank();
+        int numberOfChecks = 0;
 
         // see if any piece can attack the king in 1 legal move
         for (Piece piece : chessboard.getPieces()) {
             if ((piece.getColor() != color) &&
-                    piece.canMove(x, y, chessboard)) {
-                retval++;
-                if (retval > 1) { return retval; }
+                    piece.canMove(file, rank, chessboard)) {
+                numberOfChecks++;
+                if (numberOfChecks > 1) { return numberOfChecks; }
             }
         }
         // return the number of pieces checking the king
-        return retval;
+        return numberOfChecks;
     }
 
     /**
@@ -164,9 +166,9 @@ public class Master {
      * @return true if he is in checkmate
      */
     public boolean isCheckmate(int color) {
-        int typeOfCheck = isCheck(color);
+        int numberOfChecks = isCheck(color);
 
-        switch (typeOfCheck) {
+        switch (numberOfChecks) {
             case 1: // single check, see if any pieces have a legal move
                 return !hasLegalMoves(color);
             case 2: // double check, see if the king has any legal moves
@@ -208,15 +210,15 @@ public class Master {
                 new ArrayList<Pair<Character, Integer>>();
 
         // store coordinates for resetting after testing each move
-        char oldX = piece.getX();
-        int oldY = piece.getY();
+        char oldFile = piece.getFile();
+        int oldRank = piece.getRank();
         // iterate through the board and see if this piece can move to
         // each space
-        for (char x = 'a'; x < ('b' + chessboard.getxDimension()); x++) {
-            for (int y = 1; y <= chessboard.getyDimension(); y++) {
-                if (move(piece, x, y) == 0) {
-                    piece.move(oldX, oldY);
-                    moves.add(new Pair(x, y));
+        for (char rank = 'a'; rank < ('b' + chessboard.getxDimension()); rank++) {
+            for (int file = 1; file <= chessboard.getyDimension(); file++) {
+                if (move(piece, rank, file) == 0) {
+                    piece.move(oldFile, oldRank);
+                    moves.add(new Pair(rank, file));
                 }
             }
         }
@@ -241,27 +243,27 @@ public class Master {
 
     /**
      * Determines the x coordinate defined in a string input
-     * @param input String containing an (x, y) coordinate pair (i.e. the
+     * @param input String containing a (file, rank) coordinate pair (i.e. the
      *              space where piece is going to be moved to)
-     * @return x value
+     * @return file value
      */
-    private char parseXVal(String input) {
+    private char parseFile(String input) {
         assert(input.length() == 2);
-        char x = input.charAt(0);
-        assert(x >= 'a' && x < ('a' + chessboard.getxDimension()));
-        return x;
+        char file = input.charAt(0);
+        assert(file >= 'a' && file < ('a' + chessboard.getxDimension()));
+        return file;
     }
 
     /**
      * Determines the y coordinate defined in a string input
-     * @param input String containing an (x, y) coordinate pair (i.e. the
+     * @param input String containing a (file, rank) coordinate pair (i.e. the
      *              space where piece is going to be moved to)
-     * @return y value
+     * @return rank value
      */
-    private int parseYVal(String input) {
+    private int parseRank(String input) {
         assert(input.length() == 2);
-        int y = Integer.parseInt(input.substring((1)));
-        assert(y >= 1 && y <= chessboard.getyDimension());
-        return y;
+        int rank = Integer.parseInt(input.substring((1)));
+        assert(rank >= 1 && rank <= chessboard.getyDimension());
+        return rank;
     }
 }

@@ -1,6 +1,8 @@
 package com.zberman2.Tests;
 
 import com.zberman2.DataManager.Board;
+import com.zberman2.DataManager.StandardBoard;
+import com.zberman2.Pieces.Pawn;
 import com.zberman2.Pieces.Piece;
 import com.zberman2.Pieces.Queen;
 import org.junit.Before;
@@ -8,6 +10,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static com.zberman2.DataManager.Constants.BLACK;
 import static com.zberman2.DataManager.Constants.WHITE;
 import static org.junit.Assert.assertEquals;
 
@@ -29,7 +32,9 @@ public class QueenTest {
         queen = new Queen(WHITE, 'd', 4);
         pieces = new ArrayList<Piece>();
         pieces.add(queen);
-        chessboard = new Board(pieces);
+        pieces.add(new Pawn(BLACK, 'f', 2));
+        pieces.add(new Pawn(WHITE, 'e', 5));
+        chessboard = new StandardBoard(pieces);
     }
 
     /**
@@ -38,12 +43,15 @@ public class QueenTest {
      */
     @Test
     public void testValidMotion() throws Exception {
-        char x = queen.getX();
-        int y = queen.getY();
+        char file = queen.getFile();
+        int rank = queen.getRank();
 
-        assertEquals(true, queen.validMotion((char) (x + 1), y + 1, chessboard));
-        assertEquals(true, queen.validMotion((char) (x + 3), y, chessboard));
-        assertEquals(false, queen.validMotion((char)(x + 1), y + 2, chessboard));
+        assertEquals(true,
+                queen.validMotion((char) (file + 1), rank + 1, chessboard));
+        assertEquals(true,
+                queen.validMotion((char) (file + 3), rank, chessboard));
+        assertEquals(false,
+                queen.validMotion((char)(file + 1), rank + 2, chessboard));
     }
 
     /**
@@ -54,11 +62,23 @@ public class QueenTest {
      */
     @Test
     public void testCanMove() throws Exception {
-        char x = queen.getX();
-        int y = queen.getY();
+        char file = queen.getFile();
+        int rank = queen.getRank();
 
-        assertEquals(true, queen.canMove((char) (x + 1), y + 1, chessboard));
-        assertEquals(true, queen.canMove((char) (x + 3), y, chessboard));
-        assertEquals(false, queen.canMove((char) (x + 1), y + 2, chessboard));
+        // same moves as the validMotion tests
+        assertEquals(true,
+                queen.canMove((char) (file - 1), rank + 1, chessboard));
+        assertEquals(true,
+                queen.canMove((char) (file + 3), rank, chessboard));
+        assertEquals(false,
+                queen.canMove((char) (file + 1), rank + 2, chessboard));
+
+        // can capture opponent's piece
+        assertEquals(true,
+                queen.canMove('f', 2, chessboard));
+
+        // can't capture own piece
+        assertEquals(false,
+                queen.canMove('e', 5, chessboard));
     }
 }

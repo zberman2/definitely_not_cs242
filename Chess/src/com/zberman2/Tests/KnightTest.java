@@ -1,13 +1,16 @@
 package com.zberman2.Tests;
 
 import com.zberman2.DataManager.Board;
+import com.zberman2.DataManager.StandardBoard;
 import com.zberman2.Pieces.Knight;
+import com.zberman2.Pieces.Pawn;
 import com.zberman2.Pieces.Piece;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static com.zberman2.DataManager.Constants.BLACK;
 import static com.zberman2.DataManager.Constants.WHITE;
 import static org.junit.Assert.assertEquals;
 
@@ -29,7 +32,10 @@ public class KnightTest {
         knight = new Knight(WHITE, 'd', 4);
         pieces = new ArrayList<Piece>();
         pieces.add(knight);
-        chessboard = new Board(pieces);
+        pieces.add(new Pawn(BLACK, 'f', 3));
+        pieces.add(new Pawn(WHITE, 'f', 5));
+        pieces.add(new Pawn(BLACK, 'd', 5));
+        chessboard = new StandardBoard(pieces);
     }
 
     /**
@@ -39,12 +45,17 @@ public class KnightTest {
      */
     @Test
     public void testValidMotion() throws Exception {
-        char x = knight.getX();
-        int y = knight.getY();
+        char file = knight.getFile();
+        int rank = knight.getRank();
 
-        assertEquals(true, knight.validMotion((char) (x + 2), y + 1, chessboard));
-        assertEquals(true, knight.validMotion((char)(x + 1), y + 2, chessboard));
-        assertEquals(false, knight.validMotion(x, y + 2, chessboard));
+        // show that the Knight can move in L shape moves where one leg
+        // is 2 squares and the other is 1 square
+        assertEquals(true,
+                knight.validMotion((char) (file + 2), rank + 1, chessboard));
+        assertEquals(true,
+                knight.validMotion((char)(file + 1), rank + 2, chessboard));
+        assertEquals(false,
+                knight.validMotion(file, rank + 2, chessboard));
     }
 
     /**
@@ -54,11 +65,27 @@ public class KnightTest {
      */
     @Test
     public void testCanMove() throws Exception {
-        char x = knight.getX();
-        int y = knight.getY();
+        char file = knight.getFile();
+        int rank = knight.getRank();
 
-        assertEquals(true, knight.canMove((char) (x + 2), y + 1, chessboard));
-        assertEquals(true, knight.canMove((char)(x + 1), y + 2, chessboard));
-        assertEquals(false, knight.canMove(x, y + 2, chessboard));
+        // move in L shapes as described above, but to empty spaces, or
+        // spaces occupied by the opponent
+        assertEquals(true,
+                knight.canMove((char) (file + 2), rank - 1, chessboard));
+        assertEquals(true,
+                knight.canMove((char)(file + 1), rank + 2, chessboard));
+        assertEquals(false,
+                knight.canMove(file, rank + 2, chessboard));
+        // can jump over pieces in the way
+        assertEquals(true,
+                knight.canMove('e', 6, chessboard));
+
+        // can capture opponent's piece
+        assertEquals(true,
+                knight.canMove('f', 3, chessboard));
+
+        // cannot move to a space occupied by same color
+        assertEquals(false,
+                knight.canMove('f', 5, chessboard));
     }
 }

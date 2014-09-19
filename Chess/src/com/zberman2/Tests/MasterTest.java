@@ -2,6 +2,7 @@ package com.zberman2.Tests;
 
 import com.zberman2.DataManager.Board;
 import com.zberman2.DataManager.Master;
+import com.zberman2.DataManager.StandardBoard;
 import com.zberman2.Pieces.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,6 +25,10 @@ public class MasterTest {
     Master master;          // controls the chessboard
     Queen queen;
 
+    Board leaveKingInCheckBoard; // bishop blocking a king from a rook
+    Master leaveKingInCheckMaster; // controls leaveKingInCheckBoard
+    Bishop bishop;
+
     /**
      * Set up stalemateBoard with a stalemate configuration,
      * checkmateBoard with a checkmate configuration, and chessboard
@@ -39,7 +44,7 @@ public class MasterTest {
         stalematePieces.add(new Bishop(WHITE, 'h', 5));
         stalematePieces.add(new King(BLACK, 'h', 6));
         stalematePieces.add(new Pawn(BLACK, 'h', 7));
-        stalemateBoard = new Board(stalematePieces);
+        stalemateBoard = new StandardBoard(stalematePieces);
         stalemateMaster = new Master(stalemateBoard);
 
         ArrayList<Piece> checkmatePieces;
@@ -47,7 +52,7 @@ public class MasterTest {
         checkmatePieces.add(new King(BLACK, 'g', 1));
         checkmatePieces.add(new King(WHITE, 'g', 3));
         checkmatePieces.add(new Queen(WHITE, 'e', 1));
-        checkmateBoard = new Board(checkmatePieces);
+        checkmateBoard = new StandardBoard(checkmatePieces);
         checkmateMaster = new Master(checkmateBoard);
 
         ArrayList<Piece> pieces;
@@ -55,8 +60,16 @@ public class MasterTest {
         queen = new Queen(WHITE, 'd', 4);
         pieces.add(queen);
         pieces.add(new King(WHITE, 'a', 1));
-        chessboard = new Board(pieces);
+        chessboard = new StandardBoard(pieces);
         master = new Master(chessboard);
+
+        ArrayList<Piece> leaveKingInCheckPieces;
+        leaveKingInCheckPieces = new ArrayList<Piece>();
+        bishop = new Bishop(WHITE, 'd', 4);
+        leaveKingInCheckPieces.add(new King(WHITE, 'c', 4));
+        leaveKingInCheckPieces.add(new Rook(BLACK, 'g', 4));
+        leaveKingInCheckBoard = new StandardBoard(leaveKingInCheckPieces);
+        leaveKingInCheckMaster = new Master(leaveKingInCheckBoard);
     }
 
     /**
@@ -92,6 +105,9 @@ public class MasterTest {
         assertEquals(0, master.move(queen, 'd', 6));
         assertEquals(0, master.move(queen, 'a', 6));
         assertEquals(0, master.move(queen, 'c', 4));
+
+        // can't leave King in check
+        assertEquals(-1, leaveKingInCheckMaster.move(bishop, 'e', 3));
     }
 
     /**

@@ -1,6 +1,7 @@
 package com.zberman2.Tests;
 
 import com.zberman2.DataManager.Board;
+import com.zberman2.DataManager.StandardBoard;
 import com.zberman2.Pieces.Pawn;
 import com.zberman2.Pieces.Piece;
 import org.junit.Before;
@@ -34,7 +35,8 @@ public class PawnTest {
         pieces = new ArrayList<Piece>();
         pieces.add(whitePawn);
         pieces.add(blackPawn);
-        chessboard = new Board(pieces);
+        pieces.add(new Pawn(BLACK, 'd', 5));
+        chessboard = new StandardBoard(pieces);
     }
 
     /**
@@ -45,12 +47,13 @@ public class PawnTest {
      */
     @Test
     public void testValidMotion() throws Exception {
-        char x = whitePawn.getX();
-        int y = whitePawn.getY();
+        char file = whitePawn.getFile();
+        int rank = whitePawn.getRank();
 
-        assertEquals(true, whitePawn.validMotion((char) (x), y + 1, chessboard));
-        assertEquals(true, whitePawn.validMotion((char)(x + 1), y + 1, chessboard));
-        assertEquals(false, whitePawn.validMotion(x, y + 2, chessboard));
+        assertEquals(true,
+                whitePawn.validMotion((char)(file + 1), rank + 1, chessboard));
+        assertEquals(false,
+                whitePawn.validMotion(file, rank + 2, chessboard));
     }
 
     /**
@@ -60,11 +63,16 @@ public class PawnTest {
      */
     @Test
     public void testCanMove() throws Exception {
-        char x = whitePawn.getX();
-        int y = whitePawn.getY();
+        char file = whitePawn.getFile();
+        int rank = whitePawn.getRank();
 
-        assertEquals(true, whitePawn.canMove((char) (x), y + 1, chessboard));
-        assertEquals(true, whitePawn.canMove((char)(x + 1), y + 1, chessboard));
-        assertEquals(false, whitePawn.canMove(x, y + 2, chessboard));
+        assertEquals(true,
+                whitePawn.canMove((char)(file + 1), rank + 1, chessboard));
+        assertEquals(false,
+                whitePawn.canMove(file, rank + 2, chessboard));
+
+        // can't capture moving 1 space vertically
+        assertEquals(false,
+                whitePawn.canMove(file, rank + 1, chessboard));
     }
 }

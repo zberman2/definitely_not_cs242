@@ -1,6 +1,7 @@
 package com.zberman2.Tests;
 
 import com.zberman2.DataManager.Board;
+import com.zberman2.DataManager.StandardBoard;
 import com.zberman2.Pieces.Pawn;
 import com.zberman2.Pieces.Piece;
 import com.zberman2.Pieces.Queen;
@@ -37,7 +38,7 @@ public class PieceTest {
         pieces.add(new Pawn(BLACK, 'f', 4));
         pieces.add(new Pawn(BLACK, 'f', 6));
 
-        chessboard = new Board(pieces);
+        chessboard = new StandardBoard(pieces);
     }
 
     /**
@@ -90,9 +91,9 @@ public class PieceTest {
      */
     @Test
     public void testIsOpenDiagonalPath() throws Exception {
-        assertEquals(true, piece.isOpenDiagonalPath('f', 6, chessboard));
-        assertEquals(true, piece.isOpenDiagonalPath('c', 3, chessboard));
-        assertEquals(false, piece.isOpenDiagonalPath('g', 7, chessboard));
+        assertEquals(true, chessboard.isOpenDiagonalPath('f', 6, piece));
+        assertEquals(true, chessboard.isOpenDiagonalPath('c', 3, piece));
+        assertEquals(false, chessboard.isOpenDiagonalPath('g', 7, piece));
     }
 
     /**
@@ -103,9 +104,9 @@ public class PieceTest {
      */
     @Test
     public void testIsOpenVerticalPath() throws Exception {
-        assertEquals(true, piece.isOpenVerticalPath('d', 6, chessboard));
-        assertEquals(true, piece.isOpenVerticalPath('d', 2, chessboard));
-        assertEquals(false, piece.isOpenVerticalPath('d', 7, chessboard));
+        assertEquals(true, chessboard.isOpenVerticalPath('d', 6, piece));
+        assertEquals(true, chessboard.isOpenVerticalPath('d', 2, piece));
+        assertEquals(false, chessboard.isOpenVerticalPath('d', 7, piece));
     }
 
     /**
@@ -116,9 +117,9 @@ public class PieceTest {
      */
     @Test
     public void testIsOpenHorizontalPath() throws Exception {
-        assertEquals(true, piece.isOpenHorizontalPath('f', 4, chessboard));
-        assertEquals(true, piece.isOpenHorizontalPath('c', 4, chessboard));
-        assertEquals(false, piece.isOpenHorizontalPath('g', 4, chessboard));
+        assertEquals(true, chessboard.isOpenHorizontalPath('f', 4, piece));
+        assertEquals(true, chessboard.isOpenHorizontalPath('c', 4, piece));
+        assertEquals(false, chessboard.isOpenHorizontalPath('g', 4, piece));
     }
 
     /**
@@ -129,10 +130,10 @@ public class PieceTest {
     @Test
     public void testIsAt() throws Exception {
         assertEquals(false, piece.isAt('a', 1));
-        assertEquals(true, piece.isAt(piece.getX(), piece.getY()));
+        assertEquals(true, piece.isAt(piece.getFile(), piece.getRank()));
         piece.setIsCapturedTrue();
 
         // now false because the queen has been captured
-        assertEquals(false, piece.isAt(piece.getX(), piece.getY()));
+        assertEquals(false, piece.isAt(piece.getFile(), piece.getRank()));
     }
 }

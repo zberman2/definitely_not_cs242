@@ -3,6 +3,7 @@ package com.zberman2.Pieces;
 import com.zberman2.DataManager.Board;
 
 import static com.zberman2.DataManager.Constants.PAWN;
+import static com.zberman2.DataManager.Constants.PAWN_IMAGE_INDEX;
 import static com.zberman2.DataManager.Constants.WHITE;
 
 /**
@@ -16,11 +17,11 @@ public class Pawn extends Piece {
      * Call the superclass constructor, and then initializes the
      * isFirstMove variable
      * @param color white or black
-     * @param x x coordinate
-     * @param y y coordinate
+     * @param file x coordinate
+     * @param rank y coordinate
      */
-    public Pawn(int color, char x, int y) {
-        super(color, x, y);
+    public Pawn(int color, char file, int rank) {
+        super(color, file, rank);
         isFirstMove = true;
     }
 
@@ -29,30 +30,30 @@ public class Pawn extends Piece {
      * first move) or only 1 space up/down.  In the case that the Pawn is
      * capturing another piece, this function allows for moving
      * diagonally 1 space.
-     * @param a x coordinate of new position
-     * @param b y coordinate of new position
+     * @param newFile file coordinate of new position
+     * @param newRank rank coordinate of new position
      * @param board Current state of the chess board
      * @return true if the motion fits the Pawns's behavior
      */
     @Override
-    public boolean validMotion(char a, int b, Board board) {
+    public boolean validMotion(char newFile, int newRank, Board board) {
         // make sure the pawn is moving forward, depending on its color
         if (getColor() == WHITE) {
-            if (b < getY()) return false;
+            if (newRank < getRank()) return false;
         } else {
-            if (b > getY()) return false;
+            if (newRank > getRank()) return false;
         }
 
-        int yDifference = yDifference(b);
-        int xDifference = xDifference(a);
-        Piece piece = board.at(a,b);
+        int yDifference = rankDifference(newRank);
+        int xDifference = fileDifference(newFile);
+        Piece piece = board.at(newFile, newRank);
 
         // moving to an empty space
         if (piece == null) {
             // can only move 2 spaces forward on first move
             if (yDifference == 2) {
                 return isFirstMove && xDifference == 0 &&
-                        isOpenVerticalPath(a, b, board);
+                        board.isOpenVerticalPath(newFile, newRank, this);
             } else {
                 return xDifference == 0 && yDifference == 1;
             }
@@ -65,12 +66,12 @@ public class Pawn extends Piece {
     /**
      * Calls the superclass' move method, but also set's the isFirstMove
      * flag to false.
-     * @param a x coordinate of new position
-     * @param b y coordinate of new position
+     * @param newFile x coordinate of new position
+     * @param newRank y coordinate of new position
      */
     @Override
-    public void move(char a, int b) {
-        super.move(a, b);
+    public void move(char newFile, int newRank) {
+        super.move(newFile, newRank);
         isFirstMove = false;
     }
 
@@ -79,4 +80,11 @@ public class Pawn extends Piece {
      * @return the character for a Pawn: 'P'
      */
     public char pieceNotation() { return PAWN; }
+
+    /**
+     * Returns the index of the image array in the GUI class where this
+     * particular type of piece is located
+     * @return pawn image index
+     */
+    public int imageIndex() { return PAWN_IMAGE_INDEX; }
 }

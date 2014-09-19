@@ -3,45 +3,19 @@ This is the project README file. This projects describes the
 functionality of a game of Chess.  Currently, a basic game loop is
 implemented in the Main class, but it is mostly for debugging purposes.
 
-Ideas for refactoring: The methods in the Piece class for determining
-    valid horizontal/vertical/diagonal motion should be in the Board
-    class to maintain the hierarchy of the classes which goes
-    Master -> Board -> Piece
+Ideas for refactoring:
+    To speed up the program, brainstorm ideas for refactoring the
+    ArrayList of Pieces (hash table, 2d array, etc)
+
+TODO: Refactor and Polish Test Suit
+    add more cases for check/checkmate/stalemate in Master
+TODO: Doxygen on ews machine
 ------------------------------------------------------------------------
 
 PROJECT TITLE: Chess
-PURPOSE OF PROJECT: Assignment1.0
-VERSION or DATE: 9/12/14
+PURPOSE OF PROJECT: Make it work, make it right, make it fast
+VERSION or DATE: 9/19/14 Assignment1.1
 HOW TO START THIS PROJECT: Run the main function in the Main class
+                           To view the GUI, run main within the GUI class
 AUTHORS: Zack Berman
 
-Game board ideas for terminal window:
-
-      a      b      c      d      e      f      g      h
-    ______ ______ ______ ______ ______ ______ ______ ______
-   |      |      |      |      |      |      |      |      |
- 8 |  Rb  |  Nb  |  Bb  |  Qb  |  Kb  |  Bb  |  Nb  |  Rb  | 8
-   |______|______|______|______|______|______|______|______|
-   |      |      |      |      |      |      |      |      |
- 7 |  Pb  |  Pb  |  Pb  |  Pb  |  Pb  |  Pb  |  Pb  |  Pb  | 7
-   |______|______|______|______|______|______|______|______|
-   |      |      |      |      |      |      |      |      |
- 6 |      |      |      |      |      |      |      |      | 6
-   |______|______|______|______|______|______|______|______|
-   |      |      |      |      |      |      |      |      |
- 5 |      |      |      |      |      |      |      |      | 5
-   |______|______|______|______|______|______|______|______|
-   |      |      |      |      |      |      |      |      |
- 4 |      |      |      |      |      |      |      |      | 4
-   |______|______|______|______|______|______|______|______|
-   |      |      |      |      |      |      |      |      |
- 3 |      |      |      |      |      |      |      |      | 3
-   |______|______|______|______|______|______|______|______|
-   |      |      |      |      |      |      |      |      |
- 2 |  Pw  |  Pw  |  Pw  |  Pw  |  Pw  |  Pw  |  Pw  |  Pw  | 2
-   |______|______|______|______|______|______|______|______|
-   |      |      |      |      |      |      |      |      |
- 1 |  Rw  |  Nw  |  Bw  |  Kw  |  Qw  |  Bw  |  Nw  |  Rw  | 1
-   |______|______|______|______|______|______|______|______|
-
-      a      b      c      d      e      f      g      h
