@@ -119,7 +119,7 @@ public class StandardInitializer extends Initializer {
      */
     private void initializePawns(int color, int rank,
                                  ArrayList<Piece> pieces) {
-        for (char x = 'a'; x < ('a' + chessboard.getxDimension()); x++) {
+        for (char x = 'a'; x < ('a' + chessboard.getXDimension()); x++) {
             pieces.add(new Pawn(color, x, rank));
         }
     }

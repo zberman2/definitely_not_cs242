@@ -4,7 +4,11 @@ import com.zberman2.Pieces.King;
 import com.zberman2.Pieces.Piece;
 import javafx.util.Pair;
 
+import java.io.IOException;
 import java.util.ArrayList;
+
+import static com.zberman2.DataManager.Constants.BLACK;
+import static com.zberman2.DataManager.Constants.WHITE;
 
 /**
  * The master class controls the flow of the game.
@@ -19,9 +23,45 @@ public class Master {
      * a standard list of chess pieces, and adds them to the board.
      */
     public Master() {
+        ArrayList<Piece> pieces = new ArrayList<Piece>();
+        this.chessboard = new StandardBoard();
+        chessboard.setPieces(pieces);
+    }
+
+    /**
+     * Constructor that initializes either a standard master or an
+     * alternate master depending on the parameter
+     * @param standard true for standard initialization, false for
+     *                 alternate initialization
+     */
+    public Master(boolean standard) {
+        if (standard) {
+            standardMaster();
+        } else {
+            alternateMaster();
+        }
+    }
+
+    /**
+     * Initialization protocol for a standard master.
+     * Creates a standard board with standard pieces
+     */
+    public void standardMaster() {
         this.chessboard = new StandardBoard();
         ArrayList<Piece> pieces;
         Initializer init = new StandardInitializer(chessboard);
+        pieces = init.initializePieces();
+        chessboard.setPieces(pieces);
+    }
+
+    /**
+     * Initialization protocol for an alternate master.
+     * Creates a standard board with alternate pieces
+     */
+    public void alternateMaster() {
+        this.chessboard = new StandardBoard();
+        ArrayList<Piece> pieces;
+        Initializer init = new AlternateInitializer(chessboard);
         pieces = init.initializePieces();
         chessboard.setPieces(pieces);
     }
@@ -34,11 +74,25 @@ public class Master {
     public Master(Board board) { this.chessboard = board; }
 
     /**
+     * Getter for the Master's board
+     * @return chessboard
+     */
+    public Board getBoard() { return chessboard; }
+
+    public void setBoard(Board chessboard) { this.chessboard = chessboard; }
+
+    /**
      * Entry method for printing the chessboard in the Board class
      */
     public void printBoard() { chessboard.printBoard(); }
 
-    public void drawBoard() { chessboard.drawBoard(); }
+    /**
+     * Entry method for drawing the GUI
+     */
+    public void drawBoard() throws IOException {
+        GUIControl control = new GUIControl(chessboard, this);
+        control.init();
+    }
 
     /**
      * Returns the chess piece at a certain space on the board
@@ -53,40 +107,52 @@ public class Master {
     }
 
     /**
+     * Entry method for the canMove(pieces, file, rank) method
+     * Parses the string input and passes it into canMove
+     * @param piece Piece to be moved
+     * @param input String containing a (file, rank) coordinate pair (i.e.
+     *              space where piece is going to be moved to)
+     * @return true if piece can move to the new location
+     */
+    public boolean canMove(Piece piece, String input) {
+        char newFile = parseFile(input);
+        int newRank = parseRank(input);
+        return canMove(piece, newFile, newRank);
+    }
+
+    /**
      * Entry method for moving a piece to a new space
      * @param piece Piece to be moved
      * @param input String containing an (file, rank) coordinate pair (i.e. the
      *              space where piece is going to be moved to)
-     * @return 0 for successful moves, -1 otherwise
      */
-    public int move(Piece piece, String input) {
+    public void move(Piece piece, String input) {
         char newFile = parseFile(input);
         int newRank = parseRank(input);
-        return move(piece, newFile, newRank);
+        move(piece, newFile, newRank);
     }
 
     /**
-     * Determines if piece can move to the coordinate specified in input,
-     * and moves it there if can. Otherwise, it will not move the piece,
-     * and print an error report.
+     * Determines if a piece can move to a new location on the board.
      * @param piece Piece to be moved
      * @param newFile file coordinate of new space
      * @param newRank rank coordinate of new space
-     * @return 0 if successful, -1 if not
+     * @return true if moving to (newFile, newRank) is legal
      */
-    public int move(Piece piece, char newFile, int newRank) {
+    public boolean canMove(Piece piece, char newFile, int newRank) {
         // store starting position in case we need to revert to old location
-        char oldFile = piece.getFile();
-        int oldRank = piece.getRank();
+        Pair<Character, Integer> oldPosition = piece.getPosition();
+        Pair<Character, Integer> newPosition = new Pair<Character, Integer>(newFile, newRank);
+        Piece captured = chessboard.at(newFile, newRank);
+        Move move = new Move(piece, captured, oldPosition, newPosition);
 
         // test if (file, rank) is the current space
-        if (oldFile == newFile && oldRank == newRank) { return -1; }
+        if (newPosition == oldPosition) { return false; }
 
         // see if moving to (file, rank) is legal
-        if (!piece.canMove(newFile, newRank, chessboard)) { return -1; }
+        if (!piece.canMove(newFile, newRank, chessboard)) { return false; }
 
         // locate the piece at (file, rank) if one exists, and capture it
-        Piece captured = chessboard.at(newFile, newRank);
         if (captured != null) { captured.setIsCapturedTrue(); }
 
         // move the piece to (file, rank)
@@ -95,13 +161,40 @@ public class Master {
         // test if moving to (file, rank) leave the King in check
         if (isCheck(piece.getColor()) > 0) {
             // return piece to its former position
-            piece.move(oldFile, oldRank);
-            // return the captured piece to not captured
-            if (captured != null) captured.setIsCapturedFalse();
-            return -1;
+            move.undo();
+            return false;
         }
 
-        return 0;
+        // undo move, and return true
+        move.undo();
+        return true;
+    }
+
+    /**
+     * Entry method for move(newFile, newRank) using a (char, int) pair
+     * @param piece Piece to be moved
+     * @param newPosition new location on the board
+     */
+    public void move(Piece piece, Pair<Character, Integer> newPosition) {
+        char file = newPosition.getKey();
+        int rank = newPosition.getValue();
+        move(piece, file, rank);
+    }
+
+    /**
+     * Moves a piece to a new (file, rank)
+     * Note, this method is only called if canMove(newFile, newRank) has already
+     * been determined to be true
+     * @param piece Piece to be moved
+     * @param newFile file coordinate of new space
+     * @param newRank rank coordinate of new space
+     */
+    public void move(Piece piece, char newFile, int newRank) {
+        Piece captured = chessboard.at(newFile, newRank);
+        if (captured != null) {
+            captured.setIsCapturedTrue();
+        }
+        piece.move(newFile, newRank);
     }
 
     /**
@@ -118,9 +211,14 @@ public class Master {
         int numberOfChecks = 0;
 
         // see if any piece can attack the king in 1 legal move
-        for (Piece piece : chessboard.getPieces()) {
-            if ((piece.getColor() != color) &&
-                    piece.canMove(file, rank, chessboard)) {
+        ArrayList<Piece> opponent;
+        if (color == WHITE) {
+            opponent = pieceArrayList(BLACK);
+        } else {
+            opponent = pieceArrayList(WHITE);
+        }
+        for (Piece piece : opponent) {
+            if (piece.canMove(file, rank, chessboard)) {
                 numberOfChecks++;
                 if (numberOfChecks > 1) { return numberOfChecks; }
             }
@@ -205,20 +303,22 @@ public class Master {
         return pieces;
     }
 
+    /**
+     * Compiles and returns a list of legal moves for a given piece
+     * @param piece Piece to be moved
+     * @return ArrayList of legal moves in the form of (char, int) pairs
+     */
     public ArrayList< Pair<Character, Integer> > moveList(Piece piece) {
         ArrayList< Pair<Character, Integer> > moves =
                 new ArrayList<Pair<Character, Integer>>();
 
         // store coordinates for resetting after testing each move
-        char oldFile = piece.getFile();
-        int oldRank = piece.getRank();
         // iterate through the board and see if this piece can move to
         // each space
-        for (char rank = 'a'; rank < ('b' + chessboard.getxDimension()); rank++) {
-            for (int file = 1; file <= chessboard.getyDimension(); file++) {
-                if (move(piece, rank, file) == 0) {
-                    piece.move(oldFile, oldRank);
-                    moves.add(new Pair(rank, file));
+        for (char file = 'a'; file < ('a' + chessboard.getXDimension()); file++) {
+            for (int rank = 1; rank <= chessboard.getYDimension(); rank++) {
+                if (canMove(piece, file, rank)) {
+                    moves.add(new Pair<Character, Integer>(file, rank));
                 }
             }
         }
@@ -250,7 +350,7 @@ public class Master {
     private char parseFile(String input) {
         assert(input.length() == 2);
         char file = input.charAt(0);
-        assert(file >= 'a' && file < ('a' + chessboard.getxDimension()));
+        assert(file >= 'a' && file < ('a' + chessboard.getXDimension()));
         return file;
     }
 
@@ -263,7 +363,7 @@ public class Master {
     private int parseRank(String input) {
         assert(input.length() == 2);
         int rank = Integer.parseInt(input.substring((1)));
-        assert(rank >= 1 && rank <= chessboard.getyDimension());
+        assert(rank >= 1 && rank <= chessboard.getYDimension());
         return rank;
     }
 }

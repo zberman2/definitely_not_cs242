@@ -20,7 +20,7 @@ public class StandardBoard extends Board {
     /**
      * For testing purposes, initializes an 8x8 board with a given
      * set of chess pieces
-     * @param pieces
+     * @param pieces An array list of chess pieces
      */
     public StandardBoard(ArrayList<Piece> pieces) {
         super(pieces, 8, 8, 4);

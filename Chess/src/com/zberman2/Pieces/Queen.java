@@ -2,10 +2,17 @@ package com.zberman2.Pieces;
 
 import com.zberman2.DataManager.Board;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
 import static com.zberman2.DataManager.Constants.QUEEN;
 import static com.zberman2.DataManager.Constants.QUEEN_IMAGE_INDEX;
+import static com.zberman2.DataManager.Constants.chessPieces;
 
 /**
+ * Class describing the Queen
  * Created by Zack Berman on 9/10/2014.
  */
 public class Queen extends Piece {
@@ -33,11 +40,8 @@ public class Queen extends Piece {
     public boolean validMotion(char newFile, int newRank, Board board) {
         if (!isDiagonalMotion(newFile, newRank)) {
             if (!isVerticalMotion(newFile, newRank)) {
-                if (!isHorizontalMotion(newFile, newRank)) { // illegal motion
-                    return false;
-                } else { // horizontal motion
-                    return board.isOpenHorizontalPath(newFile, newRank, this);
-                }
+                return isHorizontalMotion(newFile, newRank) &&
+                        board.isOpenHorizontalPath(newFile, newRank, this);
             } else { // vertical motion
                 return board.isOpenVerticalPath(newFile, newRank, this);
             }

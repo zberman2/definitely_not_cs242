@@ -3,7 +3,13 @@ package com.zberman2.Pieces;
 import com.zberman2.DataManager.Board;
 import javafx.util.Pair;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
 import static com.zberman2.DataManager.Constants.WHITE;
+import static com.zberman2.DataManager.Constants.chessPieces;
 
 /**
  * Abstract class describing a generic chess piece
@@ -22,7 +28,7 @@ public abstract class Piece {
      */
     public Piece(int color, char file, int rank) {
         this.color = color;
-        this.position = new Pair(file, rank);
+        this.position = new Pair<Character, Integer>(file, rank);
     }
 
     /**
@@ -44,8 +50,8 @@ public abstract class Piece {
      * @return true if moving to (newFile, newRank) is valid
      */
     public boolean canMove(char newFile, int newRank, Board board) {
-        int xMax = board.getxDimension();
-        int yMax = board.getyDimension();
+        int xMax = board.getXDimension();
+        int yMax = board.getYDimension();
         // make sure (a, b) is on the board
         if (newFile < 'a' || newFile >= ('a' + xMax) || newRank < 1 || newRank > yMax) {
             return false;
@@ -65,7 +71,6 @@ public abstract class Piece {
     /**
      * Boolean method used by all subclasses of Piece
      * @param newRank file coordinate of new space
-     * @param newRank rank coordinate of new space
      * @param board current instance of the chess board
      * @return true if moving to (newFile, newRank) is valid
      */
@@ -77,7 +82,11 @@ public abstract class Piece {
      * @param newRank file coordinate of new space
      */
     public void move(char newFile, int newRank) {
-        position = new Pair(newFile, newRank);
+        position = new Pair<Character, Integer>(newFile, newRank);
+    }
+
+    public void move(Pair<Character, Integer> newPosition) {
+        position = newPosition;
     }
 
     /**
@@ -96,6 +105,8 @@ public abstract class Piece {
      * @return color
      */
     public int getColor() { return color; }
+
+    public Pair<Character, Integer> getPosition() { return position; }
 
     /**
      * Getter for file coordinate
@@ -140,6 +151,28 @@ public abstract class Piece {
     public abstract int imageIndex();
 
     /**
+     * Uses the chessPieces image with all chess piece images to return
+     * an individual picture with a single piece, depending on the
+     * color and type of the piece.
+     * @return image of a single piece
+     * @throws IOException
+     */
+    public Image getImage() throws IOException {
+        try {
+            BufferedImage piecesBufferedImage = ImageIO.read(chessPieces);
+            // return the single piece image located at (imageIndex(), getColor())
+            // in the array of images
+
+            // note, all individual images are 64 pixels x 64 pixels
+            return piecesBufferedImage.getSubimage(
+                    imageIndex() * 64, getColor() * 64, 64, 64);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    /**
      * Determines if (newFile, newRank) is located diagonally away from the Piece's
      * current location
      * @param newFile file coordinate of new space
@@ -161,7 +194,7 @@ public abstract class Piece {
      * @return true if (newFile, newRank) is vertically away from (file, rank)
      */
     public boolean isVerticalMotion(char newFile, int newRank) {
-        return fileDifference(newFile) == 0;
+        return fileDifference(newFile) == 0 && rankDifference(newRank) != 0;
     }
 
     /**
@@ -172,7 +205,7 @@ public abstract class Piece {
      * @return true if (newFile, newRank) is horizontally away from (rank, file)
      */
     public boolean isHorizontalMotion(char newFile, int newRank) {
-        return rankDifference(newRank) == 0;
+        return rankDifference(newRank) == 0 && fileDifference(newFile) != 0;
     }
 
     /**

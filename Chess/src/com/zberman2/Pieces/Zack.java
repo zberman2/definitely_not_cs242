@@ -1,9 +1,15 @@
 package com.zberman2.Pieces;
 
 import com.zberman2.DataManager.Board;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.io.IOException;
+
 import static com.zberman2.DataManager.Constants.*;
 
 /**
+ * Class describing the Zack piece
  * Created by Zack Berman on 9/18/2014.
  */
 public class Zack extends Piece{
@@ -46,4 +52,22 @@ public class Zack extends Piece{
      * @return -1 since we don't have an image for this piece
      */
     public int imageIndex() { return -1; }
+
+    /**
+     * Alternate piece, with an alternate image
+     * @return Zack image (negative if color is BLACK)
+     * @throws IOException
+     */
+    @Override
+    public Image getImage() throws IOException {
+        Image zack;
+        if (getColor() == BLACK) {
+            zack = getNegative(zackFile, BLACK);
+        } else {
+            zack = ImageIO.read(zackFile);
+        }
+        zack = zack.getScaledInstance(64, 64, Image.SCALE_SMOOTH);
+
+        return zack;
+    }
 }

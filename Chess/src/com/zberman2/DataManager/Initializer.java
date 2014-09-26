@@ -1,13 +1,13 @@
 package com.zberman2.DataManager;
 
-import com.zberman2.Pieces.*;
+import com.zberman2.Pieces.Piece;
 
 import java.util.ArrayList;
 
-import static com.zberman2.DataManager.Constants.BLACK;
-import static com.zberman2.DataManager.Constants.WHITE;
-
 /**
+ * Class describing the Initializer object
+ * The initializer is in charge of initializing a chessboard
+ * with a set list of pieces
  * Created by Zack Berman on 9/12/2014.
  */
 public abstract class Initializer {

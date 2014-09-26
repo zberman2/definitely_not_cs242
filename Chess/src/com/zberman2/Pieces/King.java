@@ -2,8 +2,14 @@ package com.zberman2.Pieces;
 
 import com.zberman2.DataManager.Board;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
 import static com.zberman2.DataManager.Constants.KING;
 import static com.zberman2.DataManager.Constants.KING_IMAGE_INDEX;
+import static com.zberman2.DataManager.Constants.chessPieces;
 
 /**
  * Class describing the King

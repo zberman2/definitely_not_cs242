@@ -2,16 +2,16 @@ package com.zberman2.Pieces;
 
 import com.zberman2.DataManager.Board;
 
-import static com.zberman2.DataManager.Constants.PAWN;
-import static com.zberman2.DataManager.Constants.PAWN_IMAGE_INDEX;
-import static com.zberman2.DataManager.Constants.WHITE;
+import static com.zberman2.DataManager.Constants.*;
 
 /**
+ * Class describing the Pawn
  * Created by Zack Berman on 9/10/2014.
  */
 public class Pawn extends Piece {
-    private boolean isFirstMove; // flag which, if on, allows the pawn to move
+    private boolean isFirstMove = true; // flag which, if on, allows the pawn to move
                                  // 2 spaces on its first turn
+    private int moveCount = 0;
 
     /**
      * Call the superclass constructor, and then initializes the
@@ -22,7 +22,14 @@ public class Pawn extends Piece {
      */
     public Pawn(int color, char file, int rank) {
         super(color, file, rank);
-        isFirstMove = true;
+    }
+
+    public boolean isForwardMotion(int newRank) {
+        if (getColor() == WHITE) {
+            return newRank > getRank();
+        } else {
+            return newRank < getRank();
+        }
     }
 
     /**
@@ -38,11 +45,7 @@ public class Pawn extends Piece {
     @Override
     public boolean validMotion(char newFile, int newRank, Board board) {
         // make sure the pawn is moving forward, depending on its color
-        if (getColor() == WHITE) {
-            if (newRank < getRank()) return false;
-        } else {
-            if (newRank > getRank()) return false;
-        }
+        if (!isForwardMotion(newRank)) return false;
 
         int yDifference = rankDifference(newRank);
         int xDifference = fileDifference(newFile);
@@ -63,6 +66,14 @@ public class Pawn extends Piece {
         }
     }
 
+    public boolean getIsFirstMove() { return isFirstMove; }
+
+    public int getMoveCount() { return moveCount; }
+
+    public void decrementMoveCount() { moveCount--; }
+
+    public void setIsFirstMove(boolean firstMove) { isFirstMove = firstMove; }
+
     /**
      * Calls the superclass' move method, but also set's the isFirstMove
      * flag to false.
@@ -73,6 +84,7 @@ public class Pawn extends Piece {
     public void move(char newFile, int newRank) {
         super.move(newFile, newRank);
         isFirstMove = false;
+        moveCount++;
     }
 
     /**
@@ -87,4 +99,14 @@ public class Pawn extends Piece {
      * @return pawn image index
      */
     public int imageIndex() { return PAWN_IMAGE_INDEX; }
+
+    public String toString() {
+        String s = super.toString();
+        if (isFirstMove) {
+            s += " isFirstMove";
+        } else {
+            s += " !isFirstMove";
+        }
+        return s;
+    }
 }

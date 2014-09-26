@@ -29,6 +29,10 @@ public class MasterTest {
     Master leaveKingInCheckMaster; // controls leaveKingInCheckBoard
     Bishop bishop;
 
+    Board legalMoveTestBoard;
+    Master legalMoveTestMaster;
+    Knight knight;
+
     /**
      * Set up stalemateBoard with a stalemate configuration,
      * checkmateBoard with a checkmate configuration, and chessboard
@@ -70,6 +74,16 @@ public class MasterTest {
         leaveKingInCheckPieces.add(new Rook(BLACK, 'g', 4));
         leaveKingInCheckBoard = new StandardBoard(leaveKingInCheckPieces);
         leaveKingInCheckMaster = new Master(leaveKingInCheckBoard);
+
+        ArrayList<Piece> legalMoveTestPieces;
+        legalMoveTestPieces = new ArrayList<Piece>();
+        knight = new Knight(WHITE, 'b', 1);
+        legalMoveTestPieces.add(knight);
+        legalMoveTestPieces.add(new King(WHITE, 'e', 1));
+        legalMoveTestPieces.add(new King(BLACK, 'e', 8));
+        legalMoveTestPieces.add(new Queen(BLACK, 'd', 2));
+        legalMoveTestBoard = new StandardBoard(legalMoveTestPieces);
+        legalMoveTestMaster = new Master(legalMoveTestBoard);
     }
 
     /**
@@ -90,24 +104,27 @@ public class MasterTest {
     @Test
     public void testMove() throws Exception {
         // can't move to the space it already occupies
-        assertEquals(-1, master.move(queen, 'd', 4));
+        assertEquals(false, master.canMove(queen, 'd', 4));
 
         // can't move off the board in the y direction
-        assertEquals(-1, master.move(queen, 'd', 9));
+        assertEquals(false, master.canMove(queen, 'd', 9));
 
         // can't move off the board in the x direction
-        assertEquals(-1, master.move(queen, 'i', 4));
+        assertEquals(false, master.canMove(queen, 'i', 4));
 
         // can't make an illegal move
-        assertEquals(-1, master.move(queen, 'e', 7));
+        assertEquals(false, master.canMove(queen, 'e', 7));
 
         // the following moves are legal
-        assertEquals(0, master.move(queen, 'd', 6));
-        assertEquals(0, master.move(queen, 'a', 6));
-        assertEquals(0, master.move(queen, 'c', 4));
+        assertEquals(true, master.canMove(queen, 'd', 6));
+        master.move(queen, 'd', 6);
+        assertEquals(true, master.canMove(queen, 'a', 6));
+        master.move(queen, 'a', 6);
+        assertEquals(true, master.canMove(queen, 'c', 4));
+        master.move(queen, 'c', 4);
 
         // can't leave King in check
-        assertEquals(-1, leaveKingInCheckMaster.move(bishop, 'e', 3));
+        assertEquals(false, leaveKingInCheckMaster.canMove(bishop, 'e', 3));
     }
 
     /**
@@ -149,5 +166,11 @@ public class MasterTest {
         assertEquals(false, checkmateMaster.isStalemate(BLACK));
         assertEquals(true, stalemateMaster.isStalemate(BLACK));
         assertEquals(false, stalemateMaster.isStalemate(WHITE));
+    }
+
+    @Test
+    public void testLegalMoves() throws Exception {
+        legalMoveTestMaster.printBoard();
+        assertEquals(true, knight.canMove('d', 2, legalMoveTestBoard));
     }
 }

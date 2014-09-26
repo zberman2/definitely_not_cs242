@@ -1,10 +1,18 @@
 package com.zberman2.Pieces;
 
-import static com.zberman2.DataManager.Constants.DUKE;
 import com.zberman2.DataManager.Board;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.io.IOException;
+
+import static com.zberman2.DataManager.Constants.*;
+import static com.zberman2.DataManager.Constants.BLACK;
+import static com.zberman2.DataManager.Constants.getNegative;
 
 /**
  * Created by Zack Berman on 9/13/2014.
+ * Class to define the Duke
  */
 public class Duke extends Piece {
     /**
@@ -47,4 +55,22 @@ public class Duke extends Piece {
      * @return -1 since we don't have an image of this piece
      */
     public int imageIndex() { return -1; }
+
+    /**
+     * Alternate piece, with an alternate image
+     * @return Duke image (negative if color is BLACK)
+     * @throws IOException
+     */
+    @Override
+    public Image getImage() throws IOException {
+        Image duke;
+        if (getColor() == BLACK) {
+            duke = getNegative(dukeFile, BLACK);
+        } else {
+            duke = ImageIO.read(dukeFile);
+        }
+        duke = duke.getScaledInstance(64, 64, Image.SCALE_SMOOTH);
+
+        return duke;
+    }
 }

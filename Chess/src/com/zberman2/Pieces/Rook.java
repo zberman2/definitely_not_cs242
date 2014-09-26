@@ -2,11 +2,18 @@ package com.zberman2.Pieces;
 
 import com.zberman2.DataManager.Board;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
 import static com.zberman2.DataManager.Constants.ROOK;
 import static com.zberman2.DataManager.Constants.ROOK_IMAGE_INDEX;
+import static com.zberman2.DataManager.Constants.chessPieces;
 
 /**
  * Created by Zack Berman on 9/10/2014.
+ * Class to define the Rook
  */
 public class Rook extends Piece {
     /**
@@ -31,11 +38,8 @@ public class Rook extends Piece {
     @Override
     public boolean validMotion(char newFile, int newRank, Board board) {
         if (!isVerticalMotion(newFile, newRank)) {
-            if (!isHorizontalMotion(newFile, newRank)) { // illegal motion
-                return false;
-            } else { // horizontal motion
-                return board.isOpenHorizontalPath(newFile, newRank, this);
-            }
+            return isHorizontalMotion(newFile, newRank) &&
+                    board.isOpenHorizontalPath(newFile, newRank, this);
         } else { // vertical motion
             return board.isOpenVerticalPath(newFile, newRank, this);
         }

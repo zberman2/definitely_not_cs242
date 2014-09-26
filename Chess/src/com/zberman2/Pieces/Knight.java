@@ -2,8 +2,14 @@ package com.zberman2.Pieces;
 
 import com.zberman2.DataManager.Board;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
 import static com.zberman2.DataManager.Constants.KNIGHT;
 import static com.zberman2.DataManager.Constants.KNIGHT_IMAGE_INDEX;
+import static com.zberman2.DataManager.Constants.chessPieces;
 
 /**
  * Class describing the Knight
@@ -26,7 +32,7 @@ public class Knight extends Piece {
      * @param newFile file coordinate of new position
      * @param newRank rank coordinate of new position
      * @param board Current state of the chess board
-     * @return true if the motion fits the Knights's behavior
+     * @return true if the motion fits the Knights' behavior
      */
     @Override
     public boolean validMotion(char newFile, int newRank, Board board) {

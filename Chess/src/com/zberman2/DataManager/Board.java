@@ -1,8 +1,9 @@
 package com.zberman2.DataManager;
 
+import com.zberman2.Game.TerminalWindowGUI;
 import com.zberman2.Pieces.Piece;
+import javafx.util.Pair;
 
-import javax.swing.*;
 import java.util.ArrayList;
 
 /**
@@ -64,7 +65,7 @@ public class Board {
      *
      * @return yDimension
      */
-    public int getyDimension() {
+    public int getYDimension() {
         return yDimension;
     }
 
@@ -73,7 +74,7 @@ public class Board {
      *
      * @return xDimension
      */
-    public int getxDimension() {
+    public int getXDimension() {
         return xDimension;
     }
 
@@ -102,6 +103,20 @@ public class Board {
             if (piece.isAt(file, rank)) return piece;
         }
         return null;
+    }
+
+    /**
+     * Entry method for at(char file, int rank)
+     * Given a (char, int) pair, the method calls at(file, rank)
+     * and returns the piece at that position
+     * @param position (char, int) pair corresponding to a space
+     *                 on the board
+     * @return the piece at position
+     */
+    public Piece at(Pair<Character, Integer> position) {
+        char file = position.getKey();
+        int rank = position.getValue();
+        return at(file, rank);
     }
 
     /**
@@ -199,22 +214,5 @@ public class Board {
     public void printBoard() {
         TerminalWindowGUI gui = new TerminalWindowGUI(this);
         gui.printBoard();
-    }
-
-    /**
-     * Creates a new GUI object and displays a chessboard GUI
-     */
-    public void drawBoard() {
-        GUI gui = new GUI(this);
-        JFrame f = new JFrame("Chess Board");
-        f.add(gui.getGUI());
-        f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-
-        // ensures the frame is the minimum size it needs to be
-        // in order display the components within it
-        f.pack();
-        // ensures the minimum size is enforced.
-        f.setMinimumSize(f.getSize());
-        f.setVisible(true);
     }
 }

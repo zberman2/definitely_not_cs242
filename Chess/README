@@ -8,14 +8,15 @@ Ideas for refactoring:
     ArrayList of Pieces (hash table, 2d array, etc)
 
 TODO: Refactor and Polish Test Suit
-    add more cases for check/checkmate/stalemate in Master
     make test cases more modular (one assert per test)
+    document new code
+TODO: Manual Test Plan for GUI
+    extend it now that the GUI is no longer static
 ------------------------------------------------------------------------
 
 PROJECT TITLE: Chess
 PURPOSE OF PROJECT: Make it work, make it right, make it fast
-VERSION or DATE: 9/19/14 Assignment1.1
+VERSION or DATE: 9/26/14 Assignment1.2
 HOW TO START THIS PROJECT: Run the main function in the Main class
-                           To view the GUI, run main within the GUI class
-AUTHORS: Zack Berman
+AUTHOR: Zack Berman
 
