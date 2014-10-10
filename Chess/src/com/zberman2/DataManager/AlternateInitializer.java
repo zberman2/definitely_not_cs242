@@ -90,9 +90,9 @@ public class AlternateInitializer extends Initializer{
     private void initializeDukes(int color, int rank,
                                  ArrayList<Piece> pieces) {
         if (color == WHITE) {
-            pieces.add(new Duke(color, 'b', rank));
+            pieces.add(new Ghost(color, 'b', rank));
         } else {
-            pieces.add(new Duke(color, 'g', rank));
+            pieces.add(new Ghost(color, 'g', rank));
         }
     }
 

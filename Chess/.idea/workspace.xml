@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="997bd6eb-ec28-46e7-8bde-f9e508344f3d" name="Default" comment="" />
+    <list default="true" readonly="true" id="997bd6eb-ec28-46e7-8bde-f9e508344f3d" name="Default" comment="" />
     <ignored path="Chess.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +22,30 @@
     <favorites_list name="Chess" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Constants.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1981004" vertical-offset="534" max-vertical-offset="1955">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+              <folding>
+                <element signature="docComment;method#getNegative#0;class#Constants#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ghost.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Ghost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="782">
+              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -32,32 +55,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zberman2/Constants.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/King.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Knight.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Queen.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Rook.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/KingTest.groovy" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Pawn.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/BishopTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/KingTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/KnightTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/PawnTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/QueenTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/RookTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/PieceTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/MasterTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Bishop.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Initializer.java" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/com/zberman2/Board.java" />
         <option value="$PROJECT_DIR$/src/com/zberman2/Master.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/BishopTest.java" />
         <option value="$PROJECT_DIR$/src/com/zberman2/Tests/Piece.java" />
         <option value="$PROJECT_DIR$/src/com/zberman2/Piece.java" />
-        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Piece.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/GUI.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/GUITest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/GUITest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/PieceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/BishopTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/KnightTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/QueenTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/KingTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/RookTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/PawnTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/DukeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/ZackTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/DukeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/StandardInitializer.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/ZackTest.java" />
         <option value="$PROJECT_DIR$/src/com/zberman2/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/Initializer.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/StandardBoard.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/TerminalWindowGUI.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Rook.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Bishop.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/King.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Knight.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Queen.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Pawn.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/GUI.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/TerminalWindowGame.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Tests/MasterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Game/GUIGame.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Game/Game.java" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/Board.java" />
         <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/Master.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/Move.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/AlternateInitializer.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Game/GUI.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Game/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Game/TerminalWindowGame.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Duke.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Zack.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Piece.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/GUIControl.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/Pieces/Ghost.java" />
+        <option value="$PROJECT_DIR$/src/com/zberman2/DataManager/Constants.java" />
       </list>
     </option>
   </component>
@@ -67,13 +115,15 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -93,7 +143,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,9 +180,53 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chess" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zberman2" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pieces" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chess" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zberman2" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,19 +240,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="options.lastSelected" value="preferences.toDoOptions" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -166,18 +262,25 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zberman2.DataManager" />
+      <recent name="com.zberman2.Pieces" />
       <recent name="com.zberman2" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zberman2.DataManager" />
       <recent name="com.zberman2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cs242\Chess\Docs" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.zberman2 in Chess">
-    <configuration default="false" name="com.zberman2 in Chess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="com.zberman2.Tests in Chess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Chess" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.zberman2" />
+      <option name="PACKAGE_NAME" value="com.zberman2.Tests" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -195,12 +298,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PieceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ZackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Chess" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.zberman2.Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.zberman2.Tests.PieceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zberman2.Tests.ZackTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -217,7 +321,59 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Chess" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zberman2.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.zberman2.Tests.BoardTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.zberman2.Game.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Chess" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="MasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zberman2.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="Chess" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -239,43 +395,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.zberman2.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chess" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="com.zberman2.Tests in Chess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chess" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.zberman2.Tests" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -299,7 +426,44 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -342,6 +506,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -359,6 +524,41 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -381,26 +581,56 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.com.zberman2 in Chess" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PieceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MasterTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.com.zberman2.Tests in Chess" />
+    <configuration default="false" name="GUI" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.zberman2.Game.GUI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Chess" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.GUI" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.com.zberman2.Tests in Chess" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ZackTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MasterTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.com.zberman2 in Chess" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.com.zberman2.Tests in Chess" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MasterTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PieceTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.com.zberman2.Tests in Chess" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MasterTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ZackTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" myUseAcceleration="nothing">
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
     <configuration useDefault="false">C:\Users\Zack Berman\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="true" />
   </component>
   <component name="TaskManager">
@@ -408,8 +638,16 @@
       <changelist id="997bd6eb-ec28-46e7-8bde-f9e508344f3d" name="Default" comment="" />
       <created>1410397608076</created>
       <updated>1410397608076</updated>
+      <workItem from="1411592590707" duration="691000" />
+      <workItem from="1411593682771" duration="14265000" />
+      <workItem from="1411658967200" duration="17739000" />
+      <workItem from="1411741393390" duration="7064000" />
+      <workItem from="1411760203599" duration="2949000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -420,26 +658,58 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.39946738" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="151" y="124" width="784" height="685" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.39946738" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="28" y="124" width="784" height="685" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3220339" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3288948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="80" y="1" width="778" height="700" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3288948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="357" y="101" width="886" height="658" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31681877" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3288948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="829" y="80" width="892" height="664" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.39946738" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="28" y="124" width="784" height="685" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.322237" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -456,6 +726,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="Assignment1.0, Chess library&#10;Contains basic functionality for a Chess game (more debugging/unit tests to come)" />
     <MESSAGE value="Assignment1.0, Chess library&#10;Added Test files for all Pieces, including the Piece superclass. Tests for Board and Master class coming next." />
     <MESSAGE value="Assignment1.0, Chess library&#10;Added Test files" />
@@ -464,11 +735,17 @@
     <MESSAGE value="Assignment1.0, Chess library&#10;Final submission for assignment 1.0" />
     <MESSAGE value="Assignment1.0, Chess library&#10;Added folders to the project package, and javadocs" />
     <MESSAGE value="Assignment1.0, Chess library&#10;Cleaned up checkmate and stalemate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment1.0, Chess library&#10;Cleaned up checkmate and stalemate" />
+    <MESSAGE value="Assignment1.0, Chess library&#10;Reimported to ensure that the correct version is in svn" />
+    <MESSAGE value="Assignment 1.1 extension of assignment1.0&#10;Refactoring, polished test suite, 2 new pieces, and a static gui&#10;with a beginning Manual Test plan" />
+    <MESSAGE value="Assignment 1.2 extension of assignment1.1&#10;Refactoring, polished test suite, new Manual Test Plan and extended GUI functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 1.2 extension of assignment1.1&#10;Refactoring, polished test suite, new Manual Test Plan and extended GUI functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -476,10 +753,469 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Game/TerminalWindowGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/GUIControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6596" max-vertical-offset="7650">
+          <caret line="402" column="21" selection-start-line="402" selection-start-column="21" selection-end-line="402" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#GUIControl#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#init#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeListeners#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#addListeners#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#handlePickPiece#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#handleMove#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#findSource#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#light#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#switchSides#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#evaluateBoard#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#gameOver#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#setCurrentSide#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#setBoard#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#promptNames#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeAlternateListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeStandardListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeSpaceListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeUndoListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeForfeitListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeRestartListener#0;class#GUIControl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="629">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="833">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="833">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="629">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="833">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="833">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="739">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/package-list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/QueenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9349931" vertical-offset="21" max-vertical-offset="1309">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/KingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9529737" vertical-offset="59" max-vertical-offset="1360">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/RookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6459198" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/PawnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1224">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/KnightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1428">
+          <caret line="57" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/PieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4260027" vertical-offset="567" max-vertical-offset="2244">
+          <caret line="106" column="73" selection-start-line="106" selection-start-column="73" selection-end-line="106" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5767635" vertical-offset="1113" max-vertical-offset="1836">
+          <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/ZackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="1462">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/DukeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="1445">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8300221" vertical-offset="2089" max-vertical-offset="2567">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Game/TerminalWindowGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="2108">
+          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8159675" vertical-offset="145" max-vertical-offset="884">
+          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Queen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8159675" vertical-offset="281" max-vertical-offset="1020">
+          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8159675" vertical-offset="196" max-vertical-offset="935">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1462">
+          <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+          <folding>
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33285713" vertical-offset="974" max-vertical-offset="2380">
+          <caret line="232" column="15" selection-start-line="232" selection-start-column="15" selection-end-line="232" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/MasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1748" max-vertical-offset="2465">
+          <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14479026" vertical-offset="148" max-vertical-offset="901">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="-6.9259257" vertical-offset="0" max-vertical-offset="476">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#1520#1521#0" expanded="false" />
+            <element signature="e#1556#1557#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Initializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/AlternateInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1853">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/StandardBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/StandardInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1496">
+          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Game/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#main#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Zack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55209744" vertical-offset="0" max-vertical-offset="782">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48308524" vertical-offset="1275" max-vertical-offset="2567">
+          <caret line="165" column="68" selection-start-line="165" selection-start-column="68" selection-end-line="165" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Game/TerminalWindowGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2737">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19350474" vertical-offset="520" max-vertical-offset="4964">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="50" />
+          <folding>
+            <element signature="docComment;method#Master#0;class#Master#0" expanded="true" />
+            <element signature="e#755#762#0" expanded="true" />
+            <element signature="docComment;method#Master#1;class#Master#0" expanded="true" />
+            <element signature="docComment;method#standardMaster#0;class#Master#0" expanded="true" />
+            <element signature="docComment;method#alternateMaster#0;class#Master#0" expanded="true" />
+            <element signature="docComment;method#canMove#0;class#Master#0" expanded="true" />
+            <element signature="docComment;method#canMove#1;class#Master#0" expanded="true" />
+            <element signature="docComment;method#move#1;class#Master#0" expanded="true" />
+            <element signature="docComment;method#moveList#0;class#Master#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6549391" vertical-offset="77" max-vertical-offset="816">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;method#undo#0;class#Move#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Tests/BishopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.608931" vertical-offset="43" max-vertical-offset="1156">
+          <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/GUIControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="135.0" vertical-offset="4248" max-vertical-offset="7463">
+          <caret line="234" column="37" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#GUIControl#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#init#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeListeners#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#addListeners#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#handlePickPiece#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#handleMove#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#findSource#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#light#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#switchSides#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#evaluateBoard#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#gameOver#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#setCurrentSide#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#setBoard#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#promptNames#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeAlternateListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeStandardListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeSpaceListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeUndoListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeForfeitListener#0;class#GUIControl#0" expanded="true" />
+            <element signature="docComment;method#initializeRestartListener#0;class#GUIControl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Game/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.32143" vertical-offset="65" max-vertical-offset="7497">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="22" />
+          <folding>
+            <element signature="docComment;method#setBoard#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#setTeamNames#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#checkmateMessage#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#stalemateMessage#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#checkMessage#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#scoreMessage#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#scoreMessage#1;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#getTeamName#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#drawBoard#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#initializeBoard#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#setUpToolbarElements#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#setUndoEnabled#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#setUpToolbar#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#resetToolbar#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#addStandardGameListener#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#addaAlternateGameListener#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#addUndoListener#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#addForfeitListener#0;class#GUI#0" expanded="true" />
+            <element signature="docComment;method#addRestartListener#0;class#GUI#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/Pieces/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="782">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zberman2/DataManager/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1981004" vertical-offset="534" max-vertical-offset="1955">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;method#getNegative#0;class#Constants#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,6 +1277,17 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

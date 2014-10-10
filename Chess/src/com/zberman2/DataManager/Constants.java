@@ -27,7 +27,7 @@ public final class Constants {
 
     // the following Constants are utilized by the GUI class
     public static final int FONT_SIZE = 37;
-    public static final int TOOLBAR_FONT_SIZE = 14;
+    public static final int TOOLBAR_FONT_SIZE = 12;
     public static final String FONT = "MONOSPACED";
     public static final int EMPTY_BORDER_THICKNESS = 15;
     public static final int LINE_BORDER_THICKNESS = 10;
@@ -46,7 +46,7 @@ public final class Constants {
     public static File chiefFile = new File("C:/cs242/Chess/Docs/chief.jpg");
     public static File zackFile = new File("C:/cs242/Chess/Docs/zack.jpg");
     public static File dukeFile = new File("C:/cs242/Chess/Docs/duke.jpg");
-
+    public static File ghostFile = new File("C:/cs242/Chess/Docs/ghost.png");
     // images for logos in the corners of the GUI
     public static Image victoryBadge;
     public static Image blockI;
@@ -100,6 +100,7 @@ public final class Constants {
             e.printStackTrace();
         }
         if (color == BLACK) {
+            assert bufferedImage != null;
             for (int x = 0; x < bufferedImage.getWidth(); x++) {
                 for (int y = 0; y < bufferedImage.getHeight(); y++) {
                     int rgba = bufferedImage.getRGB(x, y);

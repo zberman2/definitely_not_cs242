@@ -2,8 +2,7 @@ package com.zberman2.Tests;
 
 import com.zberman2.DataManager.Board;
 import com.zberman2.DataManager.StandardBoard;
-import com.zberman2.Pieces.Duke;
-import com.zberman2.Pieces.Knight;
+import com.zberman2.Pieces.Ghost;
 import com.zberman2.Pieces.Pawn;
 import com.zberman2.Pieces.Piece;
 import org.junit.Before;
@@ -19,7 +18,7 @@ import static org.junit.Assert.assertEquals;
  * Class which tests the functionality of the Knight class
  */
 public class DukeTest {
-    Duke duke;
+    Ghost duke;
     ArrayList<Piece> pieces;
     Board chessboard;
 
@@ -30,7 +29,7 @@ public class DukeTest {
      */
     @Before
     public void setUp() throws Exception {
-        duke = new Duke(WHITE, 'd', 4);
+        duke = new Ghost(WHITE, 'd', 4);
         pieces = new ArrayList<Piece>();
         pieces.add(duke);
         pieces.add(new Pawn(BLACK, 'e', 3));
