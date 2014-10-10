@@ -43,3 +43,5 @@ until quit do
     else                        puts MAP.metro_info(input)
   end
 end
+
+puts 'Thank you and goodbye'

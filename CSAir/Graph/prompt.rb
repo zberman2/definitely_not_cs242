@@ -220,7 +220,7 @@ module Prompt
   end
 
   # prompt user to enter 2 metros corresponding to a start/end point
-  # @return array with 2 downcased metro names
+  # @return array with 2 downcase metro names
   def prompt_route
     ports = Array.new
 
