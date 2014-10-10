@@ -19,7 +19,7 @@ class GraphTest < Minitest::Test
   # setup strings for countries that we will find throughout
   # the class to save space
   def setup
-    @south_america = Init.set_up_map('../Tests/test_data.json')
+    @south_america = Init.set_up_map('../JSON/test_data.json')
     @santiago = "Code: SCL\n"
     @santiago << "Name: Santiago\n"
     @santiago << "Country: CL\n"
@@ -89,78 +89,112 @@ class GraphTest < Minitest::Test
     assert_equal(info, @south_america.metro_info('santiago'))
   end
 
-  # assert that longest_flight returns the max distance flight
-  # in the network of flights
-  def test_longest_flight
-    # two options since order doesn't matter in longest flight
-    info1 = @bogota
-    info1 << "\n\nto\n\n"
-    info1 << @buenos_aires
-    info1 << "\n\nDistance: 4651 km"
-
-    info2 = @buenos_aires
-    info2 << "\n\nto\n\n"
-    info2 << @bogota
-    info2 << "\n\nDistance: 4651 km"
-
-    assert_equal(info1 || info2, @south_america.longest_flight)
-  end
-
-  # assert that shortest_flight returns the min distance flight
-  # in the network of flights
-  def test_shortest_flight
-    # two options since order doesn't matter in shortest flight
-    info1 = @buenos_aires
-    info1 << "\n\nto\n\n"
-    info1 << @sao_paulo
-    info1 << "\n\nDistance: 1680 km"
-
-    info2 = @sao_paulo
-    info2 << "\n\nto\n\n"
-    info2 << @buenos_aires
-    info2 << "\n\nDistance: 1680 km"
-
-    assert_equal(info1 || info2, @south_america.shortest_flight)
-  end
-
-  # assert that average_flight computes the average of
-  # all flight distances
-  def test_average_flight
-    average = (2453 + 1879 + 4323 + 4651 + 1680) / 5
-    output = "Average Distance: #{average} km"
-    assert_equal(output, @south_america.average_flight)
-  end
-
-  # assert that biggest_metro computes the max population city
-  def test_biggest_metro
-    info = @sao_paulo
-    assert_equal(info, @south_america.biggest_metro)
-  end
-  # assert that smallest_metro computes the min population city
-  def test_smallest_metro
-    info = @santiago
-    assert_equal(info, @south_america.smallest_metro)
-  end
-
-  # assert that average_metro computes the avg population city
-  def test_average_metro
-    average = (6000000 + 9050000 + 8600000 + 13300000 + 20900000) / 5
-    output = "Average Population: #{average}"
-    assert_equal(output, @south_america.average_metro)
-  end
-
   # assert that only South America is represented in this test
   def test_list_continents
     continents = "South America\n"
     assert_equal(continents, @south_america.list_continents)
   end
 
-  # assert that Bogota has the most connections out of any of
-  # the South American cities in this map
-  def test_hub_metros
-    info = @bogota
-    info << "\nNumber of connections: 3\n"
+  # asserts that a single route follows the edge time method
+  def test_time_single_route
+    santiago = @south_america.vertices[@south_america.metros['santiago']]
+    lima = @south_america.vertices[@south_america.metros['lima']]
+    route = santiago.find_route(lima.metro.code)
+    assert_equal(@south_america.time(route), route[0].time)
+  end
 
-    assert_equal(info, @south_america.hub_metros(1))
+  # asserts that layover times are factored into time calculations
+  def test_time_multiple_routes
+    edges = Array.new
+    santiago = @south_america.vertices[@south_america.metros['santiago']]
+    lima = @south_america.vertices[@south_america.metros['lima']]
+    bogota = @south_america.vertices[@south_america.metros['bogota']]
+    route_1 = santiago.find_route(lima.metro.code)[0]
+    edges << route_1
+    route_2 = lima.find_route(bogota.metro.code)[0]
+    edges << route_2
+    time = route_1.time + route_2.time + lima.layover
+    assert_equal(@south_america.time(edges), time)
+  end
+
+  # assert that edges add up properly
+  def test_distance
+    edges = Array.new
+    santiago = @south_america.vertices[@south_america.metros['santiago']]
+    lima = @south_america.vertices[@south_america.metros['lima']]
+    bogota = @south_america.vertices[@south_america.metros['bogota']]
+    route_1 = santiago.find_route(lima.metro.code)[0]
+    edges << route_1
+    route_2 = lima.find_route(bogota.metro.code)[0]
+    edges << route_2
+    distance = route_1.distance + route_2.distance
+    assert_equal(@south_america.distance(edges), distance)
+  end
+
+  # assert that each leg is cheaper per km
+  def test_cost
+    edges = Array.new
+    santiago = @south_america.vertices[@south_america.metros['santiago']]
+    lima = @south_america.vertices[@south_america.metros['lima']]
+    bogota = @south_america.vertices[@south_america.metros['bogota']]
+    route_1 = santiago.find_route(lima.metro.code)[0]
+    edges << route_1
+    route_2 = lima.find_route(bogota.metro.code)[0]
+    edges << route_2
+    cost = route_1.distance * 0.35
+    cost += route_2.distance * 0.3
+    assert_equal(@south_america.cost(edges), cost)
+  end
+
+  # test remove metro functionality
+  def test_remove_metro
+    @south_america.remove_metro('santiago')
+    assert_equal(nil, @south_america.vertices[@south_america.metros['santiago']])
+
+    # make sure lima can't get to santiago anymore
+    lima = @south_america.vertices[@south_america.metros['lima']]
+    assert_equal(0, lima.find_route('SCL'.to_sym).length)
+  end
+
+  # assert that we can delete a route, but the other way is still there
+  def test_remove_route
+    santiago = @south_america.vertices[@south_america.metros['santiago']]
+    lima = @south_america.vertices[@south_america.metros['lima']]
+    ports = %w(santiago lima)
+    @south_america.remove_route(ports)
+    assert_equal(0, santiago.find_route('LIM'.to_sym).length)
+    assert_equal(1, lima.find_route('SCL'.to_sym).length)
+  end
+
+  # test add metro functionality
+  def test_add_metro
+    metro_hash = Hash.new
+    metro_hash['code'] = 'ABC'
+    metro_hash['name'] = 'test'
+    metro_hash['country'] = 'US'
+    metro_hash['continent'] = 'North America'
+    metro_hash['timezone'] = 5
+    metro_hash['coordinates'] = {'N' => 40 , 'W' => 45}
+    metro_hash['population'] = 4000000
+    metro_hash['region'] = 2
+    # wasn't there before
+    assert_equal(nil, @south_america.vertices['ABC'.to_sym])
+
+    @south_america.add_metro(metro_hash)
+    # is there now
+    assert_equal('test', @south_america.vertices['ABC'.to_sym].metro.name)
+  end
+
+  # test add route functionality
+  # only goes one way
+  def test_add_route
+    santiago = @south_america.vertices[@south_america.metros['santiago']]
+    bogota = @south_america.vertices[@south_america.metros['bogota']]
+
+    assert_equal(0, santiago.find_route('BOG'.to_sym).length)
+
+    @south_america.add_route_with_distance('SCL'.to_sym, 'BOG'.to_sym, 5000)
+    assert_equal(1, santiago.find_route('BOG'.to_sym).length)
+    assert_equal(0, bogota.find_route('SCL'.to_sym).length)
   end
 end

@@ -2,14 +2,14 @@
 # the Graph for CSAir's map
 class Metro
   # readers allow us to read, but not write, to the attributes of a metro
-  attr_reader :code
-  attr_reader :name
-  attr_reader :country
-  attr_reader :continent
-  attr_reader :timezone
-  attr_reader :coordinates
-  attr_reader :population
-  attr_reader :region
+  attr_accessor :code
+  attr_accessor :name
+  attr_accessor :country
+  attr_accessor :continent
+  attr_accessor :timezone
+  attr_accessor :coordinates
+  attr_accessor :population
+  attr_accessor :region
 
   # constructor for a metro
   # Each metro stores information regarding its name and location,

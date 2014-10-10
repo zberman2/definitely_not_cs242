@@ -33,4 +33,19 @@ class Edge
   def info_short
     "#{@vertex.metro.name}, distance: #{@distance} km"
   end
+
+  # method which returns the amount of time in hours a distance takes
+  # to travel. Accounts for the special case of <400 km flights
+  # return float representing the time in hours for a route distance
+  def time
+    if distance < 400
+      # 2 times the time to accelerate uniformly to the halfway point
+      2 * Math.sqrt((distance/2.0) / 703.125)
+    else
+      # 2 times the time it takes to accelerate uniformly to 750 km/h
+      # in the span of 200 km
+      # add the intermediate length divided by 750 km/h
+      1.0677777 + ((distance - 400) / 750.0)
+    end
+  end
 end
