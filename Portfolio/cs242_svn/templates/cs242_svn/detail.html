@@ -1,0 +1,18 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'cs242_svn/style.css' %}" />
+
+<h1>{{ project.project_name }}</h1>
+<h3>Date: {{ project.date }}</h3>
+<h3>Revision number: {{ project.revision }}</h3>
+<h3>Description: {{ project.description }}</h3>
+
+{% if file_list %}
+    <ul>
+    {% for file in file_list %}
+        <li><a href="https://subversion.ews.illinois.edu/svn/fa14-cs242/zberman2/{{ file.path }}" target="_blank">{{ file.name }} ({{ file.size }} bytes)</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No files are available.</p>
+{% endif %}

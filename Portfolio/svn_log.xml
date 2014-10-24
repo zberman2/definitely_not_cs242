@@ -1,0 +1,3749 @@
+<?xml version="1.0"?>
+<log>
+<logentry
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/JSON/test_data.json</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph/metro.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests/stats_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/.idea/CSAir.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/GUI/controller.rb</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir/JSON</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/GUI/gui.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/GUI/messenger.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests/vertex_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/map.gif</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests/manual_test_plan.docx</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/JSON/map_data.json</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/JSON/cmi_hub.json</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests/metro_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/JSON/map_data_directed.json</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir/.idea/dictionaries</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests/manual_test_plan.pdf</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph/stats.rb</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph/graph.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests/graph_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph/init.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph/edge.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Tests/edge_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/io.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/README.txt</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir/.idea/scopes</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph/vertex.rb</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2/CSAir/GUI</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.2/CSAir/Graph/prompt.rb</path>
+</paths>
+<msg>Assignment 2.2 submission. Gui plus manual test plan</msg>
+</logentry>
+<logentry
+   revision="7463">
+<author>zberman2</author>
+<date>2014-10-17T17:40:58.013007Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.2</path>
+</paths>
+<msg>Assignment2.1 di2 directory</msg>
+</logentry>
+<logentry
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/modules.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/encodings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Graph/metro.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/JSON/test_data.json</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Tests/stats_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/CSAir.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.1/JSON</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Tests/vertex_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/JSON/map_data.json</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/JSON/cmi_hub.json</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Tests/metro_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/JSON/map_data_directed.json</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.1/.idea/dictionaries</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.1/Graph</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Graph/stats.rb</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.1/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Tests/graph_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Graph/graph.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Graph/init.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Tests/edge_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Graph/edge.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/io.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/README.txt</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.1/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/.idea/.name</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.1/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Graph/vertex.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.1/Graph/prompt.rb</path>
+</paths>
+<msg>Initial commit for assignment 2.1.
+Functionality is all there, and tests are complete.</msg>
+</logentry>
+<logentry
+   revision="6738">
+<author>zberman2</author>
+<date>2014-10-10T18:37:38.366495Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.1</path>
+</paths>
+<msg>Assignment2.1 directory</msg>
+</logentry>
+<logentry
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/encodings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Graph/metro.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Tests/metro_test.rb</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.0/.idea/dictionaries</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.0/Graph</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/CSAir.iml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.0/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Graph/graph.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Tests/graph_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Graph/init.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Graph/edge.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Tests/edge_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/io.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/README.txt</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/.name</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Graph/map_data.json</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Tests/vertex_test.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Graph/vertex.rb</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/Tests/test_data.json</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment2.0/.idea/modules.xml</path>
+</paths>
+<msg>Initial commit for assignment 2.0.
+Functionality is all there, and tests are complete.</msg>
+</logentry>
+<logentry
+   revision="5735">
+<author>zberman2</author>
+<date>2014-10-02T07:18:16.209099Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment2.0</path>
+</paths>
+<msg>Assignment2.0 directory</msg>
+</logentry>
+<logentry
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/block-i.jpg</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/encodings.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-12.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/block-i-2.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/Initializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/PawnTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-20.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Zack.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-16.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/index-files</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/StandardInitializer.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-6.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/Move.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/Initializer.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/QueenTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/GUI.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Game/TerminalWindowGUI.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/KnightTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/overview-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/BoardTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/ZackTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-17.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/duke.jpg</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Game/Main.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-13.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/src/com</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Game/TerminalWindowGame.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Main.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/Board.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Queen.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/King.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Duke.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-14.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Bishop.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/GUIControl.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-10.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/Master.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/deprecated-list.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/TerminalWindowGUI.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-18.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/script.js</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/BishopTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Rook.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/KingTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/DukeTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Piece.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/Docs</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/AlternateInitializer.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/MasterTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/zack.jpg</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/DukeTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-19.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-15.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Pawn.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-5.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/RookTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/StandardBoard.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/StandardInitializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/Constants.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/QueenTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-9.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/src</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-20.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Zack.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-16.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Knight.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Manual_Test_Plan.pdf</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/com/zberman2</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/Docs/index-files</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-12.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/StandardInitializer.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/Docs/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/stylesheet.css</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/PawnTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/QueenTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/chesspieces.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/KnightTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/StandardBoard.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/BoardTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/ZackTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/Initializer.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/GUI.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-13.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/overview-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/README</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/ZackTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/MasterTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Duke.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-17.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Queen.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Main.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Bishop.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/chief.jpg</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/help-doc.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-10.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/Master.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/victorybadge.jpg</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/Board.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-18.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/King.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Duke.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-14.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Rook.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/DataManager/TerminalWindowGUI.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/MasterTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/BishopTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/KingTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/DukeTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/package-list</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-15.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Piece.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Game</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/DataManager/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Game/GUI.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/StandardBoard.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Tests/RookTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Pieces/Zack.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-19.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/DataManager/Constants.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Pieces/Pawn.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/index-files/index-9.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/src/com/zberman2/Tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2/Pieces/Knight.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2/Docs/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.2/com/zberman2/Tests/package-frame.html</path>
+</paths>
+<msg>Assignment 1.2 extension of assignment1.1
+Refactoring, polished test suite, new Manual Test Plan and extended GUI functionality</msg>
+</logentry>
+<logentry
+   revision="5269">
+<author>zberman2</author>
+<date>2014-09-26T17:29:57.338090Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.2</path>
+</paths>
+<msg>Assignment1.2 directory</msg>
+</logentry>
+<logentry
+   revision="4219">
+<author>zberman2</author>
+<date>2014-09-19T04:48:53.366210Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Doxyfile</path>
+</paths>
+<msg>added Doxyfile</msg>
+</logentry>
+<logentry
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/encodings.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/overview-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/Knight.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/MasterTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/Piece.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-10.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/ZackTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/King.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/package-tree.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-14.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/deprecated-list.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/allclasses-noframe.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/index-files</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-18.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/stylesheet.css</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/uiDesigner.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/StandardBoard.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/Rook.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager/Master.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/index.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-15.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/Master.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Zack.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/StandardInitializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/Pawn.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/KnightTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/Docs</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/KingTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/Initializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager/Board.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/overview-summary.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/GUI.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/Bishop.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/README</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/DukeTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-12.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/MasterTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/package-list</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-16.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/RookTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/QueenTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-5.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Main.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Pieces/Queen.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/help-doc.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-9.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager/Initializer.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Manual_Test_Plan.pdf</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-13.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Duke.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-17.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/script.js</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/PawnTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/Docs/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/DataManager/TerminalWindowGUI.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/DataManager/Constants.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/index-files/index-6.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1/src</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/com/zberman2/Tests/BishopTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/src/com/zberman2/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.1/.idea/modules.xml</path>
+</paths>
+<msg>Assignment 1.1 extension of assignment1.0
+Refactoring, polished test suite, 2 new pieces, and a static gui
+with a beginning Manual Test plan</msg>
+</logentry>
+<logentry
+   revision="4214">
+<author>zberman2</author>
+<date>2014-09-19T04:36:55.362596Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.1</path>
+</paths>
+<msg>Assignment1.1 directory</msg>
+</logentry>
+<logentry
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Initializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Knight.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Master.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-12.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-16.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/index-files</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/deprecated-list.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/QueenTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/BishopTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Initializer.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/KingTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Piece.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/MasterTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-13.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/package-list</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/King.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-17.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/RookTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-9.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Board.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Bishop.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/help-doc.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-10.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/King.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-14.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-18.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/PawnTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/script.js</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/stylesheet.css</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Rook.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/KnightTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/README</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/MasterTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-15.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Pawn.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Constants.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Main.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Queen.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Reimported to ensure that the correct version is in svn</msg>
+</logentry>
+<logentry
+   revision="3108">
+<author>zberman2</author>
+<date>2014-09-13T15:38:49.003535Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 directory</msg>
+</logentry>
+<logentry
+   revision="3107">
+<author>zberman2</author>
+<date>2014-09-13T15:38:39.264754Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Cleaned up checkmate and stalemate</msg>
+</logentry>
+<logentry
+   revision="3015">
+<author>zberman2</author>
+<date>2014-09-12T20:47:20.460714Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Initializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Knight.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Master.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-12.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-16.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/index-files</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/deprecated-list.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/QueenTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/BishopTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Initializer.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/KingTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Piece.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/MasterTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-13.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/package-list</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/King.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-17.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/RookTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-9.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Board.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Bishop.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/help-doc.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-10.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/King.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-14.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-18.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/PawnTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/script.js</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/stylesheet.css</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Rook.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/KnightTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/README</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/MasterTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-15.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Pawn.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Constants.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Main.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Queen.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Cleaned up checkmate and stalemate</msg>
+</logentry>
+<logentry
+   revision="3014">
+<author>zberman2</author>
+<date>2014-09-12T20:45:59.115120Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 directory</msg>
+</logentry>
+<logentry
+   revision="3013">
+<author>zberman2</author>
+<date>2014-09-12T20:45:52.905038Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Added folders to the project package, and javadocs</msg>
+</logentry>
+<logentry
+   revision="3005">
+<author>zberman2</author>
+<date>2014-09-12T20:18:38.734415Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Initializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Knight.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Master.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-12.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-16.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/index-files</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/deprecated-list.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/QueenTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-8.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/BishopTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Initializer.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/KingTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Piece.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/MasterTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-13.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/package-list</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/King.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-17.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/RookTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/allclasses-noframe.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-9.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Board.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Bishop.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/help-doc.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-10.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/King.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-14.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/PawnTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/script.js</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/stylesheet.css</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Rook.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/KnightTest.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/README</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/DataManager/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-11.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/MasterTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-15.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Pawn.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/DataManager/Constants.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Main.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Pieces/Queen.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/Tests/package-frame.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Tests</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/com/zberman2/package-summary.html</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Added folders to the project package, and javadocs</msg>
+</logentry>
+<logentry
+   revision="3002">
+<author>zberman2</author>
+<date>2014-09-12T20:16:01.170740Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 directory</msg>
+</logentry>
+<logentry
+   revision="3001">
+<author>zberman2</author>
+<date>2014-09-12T20:15:51.298754Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Final submission for assignment 1.0</msg>
+</logentry>
+<logentry
+   revision="2971">
+<author>zberman2</author>
+<date>2014-09-12T18:36:34.517287Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Initializer.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/README</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/King.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/MasterTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Queen.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Final submission for assignment 1.0</msg>
+</logentry>
+<logentry
+   revision="2970">
+<author>zberman2</author>
+<date>2014-09-12T18:36:04.206112Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 directory</msg>
+</logentry>
+<logentry
+   revision="2969">
+<author>zberman2</author>
+<date>2014-09-12T18:35:56.166682Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Bug fixes, plus clean ups</msg>
+</logentry>
+<logentry
+   revision="2914">
+<author>zberman2</author>
+<date>2014-09-12T15:50:49.698990Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/King.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/MasterTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Queen.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Bug fixes, plus clean ups</msg>
+</logentry>
+<logentry
+   revision="2913">
+<author>zberman2</author>
+<date>2014-09-12T15:50:20.686389Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 directory</msg>
+</logentry>
+<logentry
+   revision="2912">
+<author>zberman2</author>
+<date>2014-09-12T15:50:16.574732Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0, Chess library
+added more documentation</msg>
+</logentry>
+<logentry
+   revision="2903">
+<author>zberman2</author>
+<date>2014-09-12T15:34:16.527673Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/King.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/MasterTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Queen.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+added more documentation</msg>
+</logentry>
+<logentry
+   revision="2902">
+<author>zberman2</author>
+<date>2014-09-12T15:33:53.467370Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 directory</msg>
+</logentry>
+<logentry
+   revision="2901">
+<author>zberman2</author>
+<date>2014-09-12T15:33:23.409545Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0, Chess library
+added more documentation</msg>
+</logentry>
+<logentry
+   revision="2832">
+<author>zberman2</author>
+<date>2014-09-12T08:34:30.695117Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Board.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/King.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/MasterTest.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Queen.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Added Test files</msg>
+</logentry>
+<logentry
+   revision="2831">
+<author>zberman2</author>
+<date>2014-09-12T08:33:50.764892Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 folder</msg>
+</logentry>
+<logentry
+   revision="2830">
+<author>zberman2</author>
+<date>2014-09-12T08:33:15.084195Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Added Test files for all Pieces, including the Piece superclass. Tests for Board and Master class coming next.</msg>
+</logentry>
+<logentry
+   revision="2800">
+<author>zberman2</author>
+<date>2014-09-12T06:03:03.369227Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/compiler.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Knight.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Main.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Piece.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Board.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/King.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/project-template.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Master.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/scopes/scope_settings.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/dictionaries/Zack_Berman.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/vcs.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/scopes</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Constants.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2/Queen.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src/com/zberman2</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/src</path>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment1.0/.idea/encodings.xml</path>
+</paths>
+<msg>Assignment1.0, Chess library
+Contains basic functionality for a Chess game (more debugging/unit tests to come)</msg>
+</logentry>
+<logentry
+   revision="2799">
+<author>zberman2</author>
+<date>2014-09-12T05:57:58.933964Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment1.0</path>
+</paths>
+<msg>Assignment1.0 directory</msg>
+</logentry>
+<logentry
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/.project</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/HW0/src</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/useOutput.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/.classpath</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/doc/README</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="dir"
+   action="A">/zberman2/HW0/doc</path>
+<path
+   kind="dir"
+   action="A">/zberman2/HW0/src/lanSimulation/internals</path>
+<path
+   kind="dir"
+   action="A">/zberman2/HW0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/javadoc.xml</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/COPYING</path>
+<path
+   kind="dir"
+   action="A">/zberman2/HW0/src/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/zberman2/HW0/.settings</path>
+<path
+   kind="file"
+   action="A">/zberman2/HW0/src/lanSimulation/Network.java</path>
+</paths>
+<msg>Submitted hw0 into repository</msg>
+</logentry>
+<logentry
+   revision="1887">
+<author>zberman2</author>
+<date>2014-09-05T17:55:56.213162Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/HW0</path>
+</paths>
+<msg>Share project "HW0" into "https://subversion.ews.illinois.edu/svn/fa14-cs242/zberman2"</msg>
+</logentry>
+<logentry
+   revision="1752">
+<author>zberman2</author>
+<date>2014-09-05T05:15:50.566791Z</date>
+<paths>
+<path
+   kind="dir"
+   copyfrom-path="/zberman2/grocery"
+   copyfrom-rev="1751"
+   action="A">/zberman2/shopping</path>
+<path
+   kind="dir"
+   action="D">/zberman2/grocery</path>
+</paths>
+<msg>Moved grocery to shopping for clarity</msg>
+</logentry>
+<logentry
+   revision="1748">
+<author>zberman2</author>
+<date>2014-09-05T05:13:34.957540Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/zberman2/grocery/list3.txt</path>
+</paths>
+<msg>Discovered that I want to be a vegetarian</msg>
+</logentry>
+<logentry
+   revision="1745">
+<author>zberman2</author>
+<date>2014-09-05T05:11:38.865337Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/grocery/list3.txt</path>
+</paths>
+<msg>Added list of meat</msg>
+</logentry>
+<logentry
+   revision="1744">
+<author>zberman2</author>
+<date>2014-09-05T05:10:44.233281Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/zberman2/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="1737">
+<author>zberman2</author>
+<date>2014-09-05T05:06:34.499076Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/zberman2/grocery/list2.txt</path>
+</paths>
+<msg>Put emphasis on carrot</msg>
+</logentry>
+<logentry
+   revision="1734">
+<author>zberman2</author>
+<date>2014-09-05T05:05:19.458534Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/zberman2/grocery/list2.txt</path>
+</paths>
+<msg>Added less important vegetable</msg>
+</logentry>
+<logentry
+   revision="1731">
+<author>zberman2</author>
+<date>2014-09-05T05:04:17.806209Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/zberman2/grocery/list2.txt</path>
+</paths>
+<msg>Added more important vegetable</msg>
+</logentry>
+<logentry
+   revision="1727">
+<author>zberman2</author>
+<date>2014-09-05T05:01:06.967779Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/zberman2/grocery/list2.txt</path>
+</paths>
+<msg>Adding more vegetables</msg>
+</logentry>
+<logentry
+   revision="1721">
+<author>zberman2</author>
+<date>2014-09-05T04:57:29.495136Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/zberman2/grocery/list1.txt</path>
+</paths>
+<msg>Need to buy more fruit</msg>
+</logentry>
+<logentry
+   revision="1710">
+<author>zberman2</author>
+<date>2014-09-05T04:51:27.222962Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/grocery/list1.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/grocery/list2.txt</path>
+<path
+   kind="dir"
+   action="A">/zberman2/grocery</path>
+</paths>
+<msg>importing grocery project</msg>
+</logentry>
+<logentry
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/DataManager.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Main.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Node.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/README.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TreePiece.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Makefile</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Messages.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TypeSelection.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/common.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TreePiece.ci</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Vector3D.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/defines.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/todo.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Main.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TreePiece.cpp</path>
+</paths>
+<msg>new code added</msg>
+</logentry>
+<logentry
+   revision="919">
+<author>zberman2</author>
+<date>2014-09-04T04:44:28.170993Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/mp7_final.txt</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/test.txt</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/testsquaremaze.cpp</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/rgbapixel.cpp</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/solution.png</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/m0.png</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/m1.png</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/m2.png</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/m3.png</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/testdsets.cpp</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/rgbapixel.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/dsets.cpp</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/png.cpp</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/dsets.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/png.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/partners.txt</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/puzzle.png</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/maze.cpp</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/mp7_extra_credit.txt</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/soln_testsquaremaze.out</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/mp7.doxygen</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/maze.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/mp7_grade.txt</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/soln_testdsets.out</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/500solution.png</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/500.png</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="917">
+<author>zberman2</author>
+<date>2014-09-04T04:43:31.735341Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/DataManager.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/Main.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/Node.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/README.txt</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/TreePiece.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/Makefile</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/Messages.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/TypeSelection.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/common.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/TreePiece.ci</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/Vector3D.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/defines.h</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/todo.txt</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/Main.cpp</path>
+<path
+   kind="file"
+   action="D">/zberman2/Assignment0/TreePiece.cpp</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="914">
+<author>zberman2</author>
+<date>2014-09-04T04:41:59.689657Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/DataManager.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Main.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Node.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/README.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TreePiece.h</path>
+<path
+   kind="file"
+   action="M">/zberman2/Assignment0/Makefile</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Messages.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TypeSelection.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/common.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TreePiece.ci</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Vector3D.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/defines.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/todo.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Main.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/TreePiece.cpp</path>
+</paths>
+<msg>new code added to Assignment 0</msg>
+</logentry>
+<logentry
+   revision="703">
+<author>zberman2</author>
+<date>2014-09-04T02:43:47.512803Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/mp7_final.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/test.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/rgbapixel.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/testsquaremaze.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/m0.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/solution.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/m1.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/m2.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/m3.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/testdsets.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/rgbapixel.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/dsets.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/png.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/dsets.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/png.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/partners.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/puzzle.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/maze.cpp</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/Makefile</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/mp7_extra_credit.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/soln_testsquaremaze.out</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/mp7.doxygen</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/maze.h</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/soln_testdsets.out</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/mp7_grade.txt</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/500solution.png</path>
+<path
+   kind="file"
+   action="A">/zberman2/Assignment0/500.png</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="660">
+<author>zberman2</author>
+<date>2014-09-04T02:30:27.844126Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2/Assignment0</path>
+</paths>
+<msg>making an assignment 0 directory</msg>
+</logentry>
+<logentry
+   revision="193">
+<author>root</author>
+<date>2014-09-02T17:45:53.885554Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/zberman2</path>
+</paths>
+<msg>created directory zberman2</msg>
+</logentry>
+</log>

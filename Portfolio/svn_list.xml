@@ -1,0 +1,5795 @@
+<?xml version="1.0"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/fa14-cs242/zberman2">
+<entry
+   kind="dir">
+<name>Assignment0</name>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/DataManager.h</name>
+<size>4093</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Main.cpp</name>
+<size>2219</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Main.h</name>
+<size>1071</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Makefile</name>
+<size>721</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Messages.h</name>
+<size>778</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Node.h</name>
+<size>22738</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/README.txt</name>
+<size>1432</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/TreePiece.ci</name>
+<size>1054</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/TreePiece.cpp</name>
+<size>20939</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/TreePiece.h</name>
+<size>9911</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/TypeSelection.h</name>
+<size>987</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Vector3D.h</name>
+<size>9618</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/common.h</name>
+<size>582</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/defines.h</name>
+<size>1087</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/todo.txt</name>
+<size>1852</size>
+<commit
+   revision="922">
+<author>zberman2</author>
+<date>2014-09-04T04:45:45.069048Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/compiler.xml</name>
+<size>734</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea/copyright</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea/dictionaries</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/dictionaries/Zack_Berman.xml</name>
+<size>155</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/misc.xml</name>
+<size>1446</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/modules.xml</name>
+<size>261</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/project-template.xml</name>
+<size>91</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea/scopes</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/scopes/scope_settings.xml</name>
+<size>143</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/uiDesigner.xml</name>
+<size>8919</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/vcs.xml</name>
+<size>173</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess.iml</name>
+<size>871</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/README</name>
+<size>2488</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/allclasses-frame.html</name>
+<size>3003</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/allclasses-noframe.html</name>
+<size>2603</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/com</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/com/zberman2</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/com/zberman2/DataManager</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/DataManager/Board.html</name>
+<size>15462</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/DataManager/Constants.html</name>
+<size>12051</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/DataManager/Initializer.html</name>
+<size>10517</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/DataManager/Master.html</name>
+<size>20755</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/DataManager/package-frame.html</name>
+<size>1163</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/DataManager/package-summary.html</name>
+<size>5844</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/DataManager/package-tree.html</name>
+<size>5230</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Main.html</name>
+<size>8890</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/com/zberman2/Pieces</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/Bishop.html</name>
+<size>13806</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/King.html</name>
+<size>13940</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/Knight.html</name>
+<size>14049</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/Pawn.html</name>
+<size>15198</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/Piece.html</name>
+<size>29107</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/Queen.html</name>
+<size>14058</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/Rook.html</name>
+<size>13739</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/package-frame.html</name>
+<size>1398</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/package-summary.html</name>
+<size>6486</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Pieces/package-tree.html</name>
+<size>5683</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/com/zberman2/Tests</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/BishopTest.html</name>
+<size>10825</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/KingTest.html</name>
+<size>11103</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/KnightTest.html</name>
+<size>11117</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/MasterTest.html</name>
+<size>13983</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/PawnTest.html</name>
+<size>11345</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/PieceTest.html</name>
+<size>16200</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/QueenTest.html</name>
+<size>11189</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/RookTest.html</name>
+<size>10875</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/package-frame.html</name>
+<size>1551</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/package-summary.html</name>
+<size>6647</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/Tests/package-tree.html</name>
+<size>5750</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/package-frame.html</name>
+<size>773</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/package-summary.html</name>
+<size>4648</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/com/zberman2/package-tree.html</name>
+<size>4388</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/constant-values.html</name>
+<size>6951</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/deprecated-list.html</name>
+<size>3636</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/help-doc.html</name>
+<size>8465</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/index-files</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-1.html</name>
+<size>5372</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-10.html</name>
+<size>11494</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-11.html</name>
+<size>6550</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-12.html</name>
+<size>6533</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-13.html</name>
+<size>9111</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-14.html</name>
+<size>15300</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-15.html</name>
+<size>7761</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-16.html</name>
+<size>5308</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-17.html</name>
+<size>5420</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-18.html</name>
+<size>5362</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-2.html</name>
+<size>7972</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-3.html</name>
+<size>6749</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-4.html</name>
+<size>5394</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-5.html</name>
+<size>7394</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-6.html</name>
+<size>5419</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-7.html</name>
+<size>10824</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-8.html</name>
+<size>8552</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index-files/index-9.html</name>
+<size>9450</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/index.html</name>
+<size>2937</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/overview-frame.html</name>
+<size>1116</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/overview-summary.html</name>
+<size>4544</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/overview-tree.html</name>
+<size>7601</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/package-list</name>
+<size>81</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/script.js</name>
+<size>857</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/com</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/com/zberman2</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/com/zberman2/DataManager</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/DataManager/Board.java</name>
+<size>6080</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/DataManager/Constants.java</name>
+<size>753</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/DataManager/Initializer.java</name>
+<size>5190</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/DataManager/Master.java</name>
+<size>9155</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Main.java</name>
+<size>3014</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/com/zberman2/Pieces</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Pieces/Bishop.java</name>
+<size>1323</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Pieces/King.java</name>
+<size>1248</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Pieces/Knight.java</name>
+<size>1359</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Pieces/Pawn.java</name>
+<size>2685</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Pieces/Piece.java</name>
+<size>9930</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Pieces/Queen.java</name>
+<size>1735</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Pieces/Rook.java</name>
+<size>1522</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/com/zberman2/Tests</name>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/BishopTest.java</name>
+<size>1861</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/KingTest.java</name>
+<size>1853</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/KnightTest.java</name>
+<size>1887</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/MasterTest.java</name>
+<size>4958</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/PawnTest.java</name>
+<size>2236</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/PieceTest.java</name>
+<size>4986</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/QueenTest.java</name>
+<size>1935</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/com/zberman2/Tests/RookTest.java</name>
+<size>1878</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/stylesheet.css</name>
+<size>13382</size>
+<commit
+   revision="3109">
+<author>zberman2</author>
+<date>2014-09-13T15:39:32.123145Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="4219">
+<author>zberman2</author>
+<date>2014-09-19T04:48:53.366210Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/compiler.xml</name>
+<size>734</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea/copyright</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea/dictionaries</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/dictionaries/Zack_Berman.xml</name>
+<size>176</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/misc.xml</name>
+<size>1575</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/modules.xml</name>
+<size>261</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/project-template.xml</name>
+<size>91</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea/scopes</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/scopes/scope_settings.xml</name>
+<size>143</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/uiDesigner.xml</name>
+<size>9038</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/vcs.xml</name>
+<size>176</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Chess.iml</name>
+<size>871</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/Docs</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/allclasses-frame.html</name>
+<size>3003</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/allclasses-noframe.html</name>
+<size>2603</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/constant-values.html</name>
+<size>6951</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/deprecated-list.html</name>
+<size>3636</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/help-doc.html</name>
+<size>8465</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/index.html</name>
+<size>2937</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/overview-frame.html</name>
+<size>1116</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/overview-summary.html</name>
+<size>4544</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/overview-tree.html</name>
+<size>7601</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/script.js</name>
+<size>857</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Docs/stylesheet.css</name>
+<size>13382</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="4219">
+<author>zberman2</author>
+<date>2014-09-19T04:48:53.366210Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Manual_Test_Plan.pdf</name>
+<size>80048</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/README</name>
+<size>920</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/com</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/com/zberman2</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/com/zberman2/DataManager</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/DataManager/Board.html</name>
+<size>15462</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/DataManager/Constants.html</name>
+<size>12051</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/DataManager/Initializer.html</name>
+<size>10517</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/DataManager/Master.html</name>
+<size>20755</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/DataManager/package-frame.html</name>
+<size>1163</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/DataManager/package-summary.html</name>
+<size>5844</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/DataManager/package-tree.html</name>
+<size>5230</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Main.html</name>
+<size>8890</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/com/zberman2/Pieces</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/Bishop.html</name>
+<size>13806</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/King.html</name>
+<size>13940</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/Knight.html</name>
+<size>14049</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/Pawn.html</name>
+<size>15198</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/Piece.html</name>
+<size>29107</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/Queen.html</name>
+<size>14058</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/Rook.html</name>
+<size>13739</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/package-frame.html</name>
+<size>1398</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/package-summary.html</name>
+<size>6486</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Pieces/package-tree.html</name>
+<size>5683</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/com/zberman2/Tests</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/BishopTest.html</name>
+<size>10825</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/KingTest.html</name>
+<size>11103</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/KnightTest.html</name>
+<size>11117</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/MasterTest.html</name>
+<size>13983</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/PawnTest.html</name>
+<size>11345</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/PieceTest.html</name>
+<size>16200</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/QueenTest.html</name>
+<size>11189</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/RookTest.html</name>
+<size>10875</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/package-frame.html</name>
+<size>1551</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/package-summary.html</name>
+<size>6647</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/Tests/package-tree.html</name>
+<size>5750</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/package-frame.html</name>
+<size>773</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/package-summary.html</name>
+<size>4648</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/com/zberman2/package-tree.html</name>
+<size>4388</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/index-files</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-1.html</name>
+<size>5372</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-10.html</name>
+<size>11494</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-11.html</name>
+<size>6550</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-12.html</name>
+<size>6533</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-13.html</name>
+<size>9111</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-14.html</name>
+<size>15300</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-15.html</name>
+<size>7761</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-16.html</name>
+<size>5308</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-17.html</name>
+<size>5420</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-18.html</name>
+<size>5362</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-2.html</name>
+<size>7972</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-3.html</name>
+<size>6749</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-4.html</name>
+<size>5394</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-5.html</name>
+<size>7394</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-6.html</name>
+<size>5419</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-7.html</name>
+<size>10824</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-8.html</name>
+<size>8552</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/index-files/index-9.html</name>
+<size>9450</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/package-list</name>
+<size>81</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/zberman2</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/zberman2/DataManager</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/Board.java</name>
+<size>7747</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/Constants.java</name>
+<size>1510</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/GUI.java</name>
+<size>9752</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/Initializer.java</name>
+<size>1437</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/Master.java</name>
+<size>9571</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/StandardBoard.java</name>
+<size>717</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/StandardInitializer.java</name>
+<size>5004</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/DataManager/TerminalWindowGUI.java</name>
+<size>4096</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Main.java</name>
+<size>3014</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/zberman2/Pieces</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Bishop.java</name>
+<size>1716</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Duke.java</name>
+<size>1593</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/King.java</name>
+<size>1623</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Knight.java</name>
+<size>1740</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Pawn.java</name>
+<size>3131</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Piece.java</name>
+<size>7098</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Queen.java</name>
+<size>2184</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Rook.java</name>
+<size>1939</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Pieces/Zack.java</name>
+<size>1622</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/zberman2/Tests</name>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/BishopTest.java</name>
+<size>2740</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/BoardTest.java</name>
+<size>3182</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/DukeTest.java</name>
+<size>2987</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/KingTest.java</name>
+<size>2754</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/KnightTest.java</name>
+<size>2969</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/MasterTest.java</name>
+<size>5730</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/PawnTest.java</name>
+<size>2440</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/PieceTest.java</name>
+<size>5054</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/QueenTest.java</name>
+<size>2628</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/RookTest.java</name>
+<size>2617</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/zberman2/Tests/ZackTest.java</name>
+<size>3088</size>
+<commit
+   revision="4216">
+<author>zberman2</author>
+<date>2014-09-19T04:39:53.226234Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/compiler.xml</name>
+<size>734</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea/copyright</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea/dictionaries</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/dictionaries/Zack_Berman.xml</name>
+<size>304</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/misc.xml</name>
+<size>1660</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/modules.xml</name>
+<size>261</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/project-template.xml</name>
+<size>91</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea/scopes</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/scopes/scope_settings.xml</name>
+<size>143</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/uiDesigner.xml</name>
+<size>9038</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/vcs.xml</name>
+<size>176</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Chess.iml</name>
+<size>871</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Docs</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/allclasses-frame.html</name>
+<size>4179</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/allclasses-noframe.html</name>
+<size>3599</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/block-i-2.png</name>
+<size>5463</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/block-i.jpg</name>
+<size>4970</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/chesspieces.png</name>
+<size>28503</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/chief.jpg</name>
+<size>21715</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Docs/com</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Docs/com/zberman2</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Docs/com/zberman2/DataManager</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/Board.html</name>
+<size>21611</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/Constants.html</name>
+<size>21796</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/GUI.html</name>
+<size>11402</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/Initializer.html</name>
+<size>13076</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/Master.html</name>
+<size>21541</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/StandardBoard.html</name>
+<size>10665</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/StandardInitializer.html</name>
+<size>13477</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/TerminalWindowGUI.html</name>
+<size>9482</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/package-frame.html</name>
+<size>1639</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/package-summary.html</name>
+<size>7152</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/DataManager/package-tree.html</name>
+<size>6084</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Main.html</name>
+<size>8895</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Docs/com/zberman2/Pieces</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Bishop.html</name>
+<size>14578</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Duke.html</name>
+<size>14656</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/King.html</name>
+<size>14704</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Knight.html</name>
+<size>14821</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Pawn.html</name>
+<size>15976</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Piece.html</name>
+<size>25800</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Queen.html</name>
+<size>14828</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Rook.html</name>
+<size>14756</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/Zack.html</name>
+<size>14430</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/package-frame.html</name>
+<size>1590</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/package-summary.html</name>
+<size>6974</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Pieces/package-tree.html</name>
+<size>6029</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Docs/com/zberman2/Tests</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/BishopTest.html</name>
+<size>10827</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/BoardTest.html</name>
+<size>12939</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/DukeTest.html</name>
+<size>11165</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/KingTest.html</name>
+<size>11342</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/KnightTest.html</name>
+<size>11117</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/MasterTest.html</name>
+<size>13983</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/PawnTest.html</name>
+<size>11345</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/PieceTest.html</name>
+<size>16200</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/QueenTest.html</name>
+<size>11189</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/RookTest.html</name>
+<size>11127</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/ZackTest.html</name>
+<size>10841</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/package-frame.html</name>
+<size>1862</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/package-summary.html</name>
+<size>7455</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/Tests/package-tree.html</name>
+<size>6286</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/package-frame.html</name>
+<size>773</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/package-summary.html</name>
+<size>4648</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/com/zberman2/package-tree.html</name>
+<size>4388</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/constant-values.html</name>
+<size>11721</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/deprecated-list.html</name>
+<size>3636</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/duke.jpg</name>
+<size>20870</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/help-doc.html</name>
+<size>8465</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Docs/index-files</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-1.html</name>
+<size>5512</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-10.html</name>
+<size>9332</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-11.html</name>
+<size>5480</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-12.html</name>
+<size>10018</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-13.html</name>
+<size>12969</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-14.html</name>
+<size>7007</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-15.html</name>
+<size>7406</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-16.html</name>
+<size>12421</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-17.html</name>
+<size>19408</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-18.html</name>
+<size>8800</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-19.html</name>
+<size>5448</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-2.html</name>
+<size>9082</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-20.html</name>
+<size>6619</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-3.html</name>
+<size>7161</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-4.html</name>
+<size>7315</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-5.html</name>
+<size>5474</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-6.html</name>
+<size>6546</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-7.html</name>
+<size>8869</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-8.html</name>
+<size>5559</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index-files/index-9.html</name>
+<size>17328</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/index.html</name>
+<size>2937</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/overview-frame.html</name>
+<size>1116</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/overview-summary.html</name>
+<size>4544</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/overview-tree.html</name>
+<size>9256</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/package-list</name>
+<size>81</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/script.js</name>
+<size>857</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/stylesheet.css</name>
+<size>13382</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/victorybadge.jpg</name>
+<size>6523</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Docs/zack.jpg</name>
+<size>4008</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Manual_Test_Plan.pdf</name>
+<size>1216537</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/README</name>
+<size>917</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/com</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/com/zberman2</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/com/zberman2/DataManager</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/Board.html</name>
+<size>21611</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/Constants.html</name>
+<size>21796</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/GUI.html</name>
+<size>11402</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/Initializer.html</name>
+<size>13076</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/Master.html</name>
+<size>21541</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/StandardBoard.html</name>
+<size>10665</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/StandardInitializer.html</name>
+<size>13477</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/TerminalWindowGUI.html</name>
+<size>9482</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/package-frame.html</name>
+<size>1639</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/package-summary.html</name>
+<size>7152</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/DataManager/package-tree.html</name>
+<size>6084</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Main.html</name>
+<size>8895</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/com/zberman2/Pieces</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Bishop.html</name>
+<size>14578</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Duke.html</name>
+<size>14656</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/King.html</name>
+<size>14704</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Knight.html</name>
+<size>14821</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Pawn.html</name>
+<size>15976</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Piece.html</name>
+<size>25800</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Queen.html</name>
+<size>14828</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Rook.html</name>
+<size>14756</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/Zack.html</name>
+<size>14430</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/package-frame.html</name>
+<size>1590</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/package-summary.html</name>
+<size>6974</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Pieces/package-tree.html</name>
+<size>6029</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/com/zberman2/Tests</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/BishopTest.html</name>
+<size>10827</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/BoardTest.html</name>
+<size>12939</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/DukeTest.html</name>
+<size>11165</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/KingTest.html</name>
+<size>11342</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/KnightTest.html</name>
+<size>11117</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/MasterTest.html</name>
+<size>13983</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/PawnTest.html</name>
+<size>11345</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/PieceTest.html</name>
+<size>16200</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/QueenTest.html</name>
+<size>11189</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/RookTest.html</name>
+<size>11127</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/ZackTest.html</name>
+<size>10841</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/package-frame.html</name>
+<size>1862</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/package-summary.html</name>
+<size>7455</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/Tests/package-tree.html</name>
+<size>6286</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/package-frame.html</name>
+<size>773</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/package-summary.html</name>
+<size>4648</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/com/zberman2/package-tree.html</name>
+<size>4388</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/index-files</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-1.html</name>
+<size>5512</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-10.html</name>
+<size>9332</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-11.html</name>
+<size>5480</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-12.html</name>
+<size>10018</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-13.html</name>
+<size>12969</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-14.html</name>
+<size>7007</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-15.html</name>
+<size>7406</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-16.html</name>
+<size>12421</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-17.html</name>
+<size>19408</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-18.html</name>
+<size>8800</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-19.html</name>
+<size>5448</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-2.html</name>
+<size>9082</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-20.html</name>
+<size>6619</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-3.html</name>
+<size>7161</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-4.html</name>
+<size>7315</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-5.html</name>
+<size>5474</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-6.html</name>
+<size>6546</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-7.html</name>
+<size>8869</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-8.html</name>
+<size>5559</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/index-files/index-9.html</name>
+<size>17328</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/zberman2</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/zberman2/DataManager</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/AlternateInitializer.java</name>
+<size>5701</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/Board.java</name>
+<size>7743</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/Constants.java</name>
+<size>4923</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/GUIControl.java</name>
+<size>15942</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/Initializer.java</name>
+<size>1461</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/Master.java</name>
+<size>12911</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/Move.java</name>
+<size>1753</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/StandardBoard.java</name>
+<size>747</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/DataManager/StandardInitializer.java</name>
+<size>5004</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/zberman2/Game</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Game/GUI.java</name>
+<size>19275</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Game/Main.java</name>
+<size>604</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Game/TerminalWindowGUI.java</name>
+<size>4043</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Game/TerminalWindowGame.java</name>
+<size>5343</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/zberman2/Pieces</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Bishop.java</name>
+<size>1890</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Duke.java</name>
+<size>2320</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/King.java</name>
+<size>1806</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Knight.java</name>
+<size>1922</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Pawn.java</name>
+<size>3638</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Piece.java</name>
+<size>8341</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Queen.java</name>
+<size>2278</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Rook.java</name>
+<size>2043</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Pieces/Zack.java</name>
+<size>2239</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/zberman2/Tests</name>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/BishopTest.java</name>
+<size>2740</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/BoardTest.java</name>
+<size>3182</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/DukeTest.java</name>
+<size>2987</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/KingTest.java</name>
+<size>2754</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/KnightTest.java</name>
+<size>2969</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/MasterTest.java</name>
+<size>6666</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/PawnTest.java</name>
+<size>2440</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/PieceTest.java</name>
+<size>5054</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/QueenTest.java</name>
+<size>2628</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/RookTest.java</name>
+<size>2617</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/zberman2/Tests/ZackTest.java</name>
+<size>3007</size>
+<commit
+   revision="5303">
+<author>zberman2</author>
+<date>2014-09-26T18:49:39.724479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/.idea</name>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/CSAir.iml</name>
+<size>10130</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/.idea/dictionaries</name>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/dictionaries/Zack_Berman.xml</name>
+<size>305</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/misc.xml</name>
+<size>195</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/modules.xml</name>
+<size>273</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/.idea/scopes</name>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/scopes/scope_settings.xml</name>
+<size>143</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/vcs.xml</name>
+<size>173</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/Graph</name>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Graph/edge.rb</name>
+<size>1302</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Graph/graph.rb</name>
+<size>7432</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Graph/init.rb</name>
+<size>1728</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Graph/map_data.json</name>
+<size>22891</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Graph/metro.rb</name>
+<size>1712</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Graph/vertex.rb</name>
+<size>1776</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/README.txt</name>
+<size>598</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/Tests</name>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Tests/edge_test.rb</name>
+<size>686</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Tests/graph_test.rb</name>
+<size>5070</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Tests/metro_test.rb</name>
+<size>1022</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Tests/test_data.json</name>
+<size>2025</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Tests/vertex_test.rb</name>
+<size>1796</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/io.rb</name>
+<size>1843</size>
+<commit
+   revision="5736">
+<author>zberman2</author>
+<date>2014-10-02T07:21:12.814722Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea</name>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/CSAir.iml</name>
+<size>10128</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea/dictionaries</name>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/dictionaries/Zack_Berman.xml</name>
+<size>329</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/misc.xml</name>
+<size>195</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/modules.xml</name>
+<size>273</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea/scopes</name>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/scopes/scope_settings.xml</name>
+<size>143</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/vcs.xml</name>
+<size>173</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/Graph</name>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Graph/edge.rb</name>
+<size>1894</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Graph/graph.rb</name>
+<size>13759</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Graph/init.rb</name>
+<size>6106</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Graph/metro.rb</name>
+<size>1728</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Graph/prompt.rb</name>
+<size>8202</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Graph/stats.rb</name>
+<size>8301</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Graph/vertex.rb</name>
+<size>2819</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/JSON</name>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/JSON/cmi_hub.json</name>
+<size>1511</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/JSON/map_data.json</name>
+<size>22891</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/JSON/map_data_directed.json</name>
+<size>32915</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/JSON/test_data.json</name>
+<size>2460</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/README.txt</name>
+<size>649</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/Tests</name>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Tests/edge_test.rb</name>
+<size>1111</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Tests/graph_test.rb</name>
+<size>6975</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Tests/metro_test.rb</name>
+<size>1022</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Tests/stats_test.rb</name>
+<size>4749</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Tests/vertex_test.rb</name>
+<size>3158</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/io.rb</name>
+<size>1674</size>
+<commit
+   revision="6739">
+<author>zberman2</author>
+<date>2014-10-10T18:38:16.780944Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir/.idea</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/.idea/CSAir.iml</name>
+<size>10128</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir/.idea/dictionaries</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/.idea/dictionaries/Zack_Berman.xml</name>
+<size>329</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir/.idea/scopes</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/.idea/scopes/scope_settings.xml</name>
+<size>143</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/.idea/workspace.xml</name>
+<size>31672</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir/GUI</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/GUI/controller.rb</name>
+<size>2390</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/GUI/gui.rb</name>
+<size>655</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/GUI/messenger.rb</name>
+<size>14162</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir/Graph</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Graph/edge.rb</name>
+<size>1894</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Graph/graph.rb</name>
+<size>16127</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Graph/init.rb</name>
+<size>6071</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Graph/metro.rb</name>
+<size>1728</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Graph/prompt.rb</name>
+<size>9395</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Graph/stats.rb</name>
+<size>8927</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Graph/vertex.rb</name>
+<size>2819</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir/JSON</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/JSON/cmi_hub.json</name>
+<size>1511</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/JSON/map_data.json</name>
+<size>22891</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/JSON/map_data_directed.json</name>
+<size>32915</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/JSON/test_data.json</name>
+<size>2460</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/README.txt</name>
+<size>678</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/CSAir/Tests</name>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Tests/edge_test.rb</name>
+<size>1111</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Tests/graph_test.rb</name>
+<size>6975</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Tests/manual_test_plan.docx</name>
+<size>460245</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Tests/manual_test_plan.pdf</name>
+<size>358759</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Tests/metro_test.rb</name>
+<size>1022</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Tests/stats_test.rb</name>
+<size>4749</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/Tests/vertex_test.rb</name>
+<size>3158</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/io.rb</name>
+<size>1779</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/CSAir/map.gif</name>
+<size>27893</size>
+<commit
+   revision="7481">
+<author>zberman2</author>
+<date>2014-10-17T18:30:10.292312Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0</name>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.classpath</name>
+<size>307</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.project</name>
+<size>362</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/.settings</name>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/doc</name>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src</name>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation</name>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/LANSimulation.java</name>
+<size>5845</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/Network.java</name>
+<size>13403</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation/internals</name>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/internals/Node.java</name>
+<size>2406</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation/tests</name>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10293</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1888">
+<author>zberman2</author>
+<date>2014-09-05T17:56:12.100058Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>shopping</name>
+<commit
+   revision="1752">
+<author>zberman2</author>
+<date>2014-09-05T05:15:50.566791Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list1.txt</name>
+<size>56</size>
+<commit
+   revision="1721">
+<author>zberman2</author>
+<date>2014-09-05T04:57:29.495136Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list2.txt</name>
+<size>76</size>
+<commit
+   revision="1744">
+<author>zberman2</author>
+<date>2014-09-05T05:10:44.233281Z</date>
+</commit>
+</entry>
+</list>
+</lists>

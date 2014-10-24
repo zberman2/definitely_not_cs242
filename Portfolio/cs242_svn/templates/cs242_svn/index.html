@@ -1,0 +1,15 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'cs242_svn/style.css' %}" />
+
+<h1>Zack's Portfolio</h1>
+
+{% if project_list %}
+    <ul>
+    {% for project in project_list %}
+        <li><a href="{% url 'cs242_svn:detail' project.id %}">{{ project.project_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No projects are available.</p>
+{% endif %}
