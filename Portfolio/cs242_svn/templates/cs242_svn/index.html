@@ -1,15 +1,55 @@
 {% load staticfiles %}
 
-<link rel="stylesheet" type="text/css" href="{% static 'cs242_svn/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+<style>
+    .comment-field {
+        margin-left: 10px;
+    }
+</style>
+
+<script>
+    function reply(parent_text){
+        console.log(parent_text);
+        document.getElementById("parent-text").value = parent_text;
+        document.getElementById("reply-to").innerHTML = "Reply to: " + parent_text;
+    }
+</script>
 
 <h1>Zack's Portfolio</h1>
 
-{% if project_list %}
-    <ul>
-    {% for project in project_list %}
-        <li><a href="{% url 'cs242_svn:detail' project.id %}">{{ project.project_name }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No projects are available.</p>
-{% endif %}
+<div class="row">
+    <div class="col-md-6">
+        {% if projects %}
+            <ul>
+{#            print out all the project names #}
+                {% for project in projects %}
+                    <li><a href="{% url 'cs242_svn:detail' project.id %}">{{ project.project_name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No projects are available.</p>
+        {% endif %}
+    </div>
+    <div class="col-md-6">
+        {% if comments %}
+            <ul>
+{#            print out all the comments#}
+                {% for comment in comments %}
+                    <pre>{{ comment.text }}</pre>
+                    <p class = 'comment-field' onClick="reply('{{ comment.text }}')"><a>Reply</a></p>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No comments are available.</p>
+        {% endif %}
+
+{#    form for the user to enter a comment#}
+        <form class='comment_form' method='POST' action='add_message/'> {% csrf_token %}
+            <p id="reply-to">Reply to Board</p>
+            {{form.as_p}}
+            <input class = 'comment_submit' type='submit'>
+            <input id='parent-text' type="hidden" name="parent-text">
+        </form>
+    </div>
+</div>
+

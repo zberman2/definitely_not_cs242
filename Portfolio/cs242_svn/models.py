@@ -35,10 +35,15 @@ class SVNFile(models.Model):
         return self.name
 
 
-        # class SVNDirectory(models.Model):
-        # project = models.ForeignKey(Project)
-        #     path = models.CharField(max_length=200)
-        #     name = models.CharField(max_length=100)
-        #     commit = models.IntegerField(max_length=10)
-        #     author = models.CharField(max_length=50)
-        #     date = models.DateTimeField('date submitted')
+class Message(models.Model):
+    """
+    template for a message post within the portfolio
+    contains a message text, date tag and a parent
+    """
+    text = models.CharField(max_length=240)
+    date = models.DateTimeField(auto_now_add=True)
+    parent_id = models.ForeignKey('self', null=True, blank=True)
+
+    # to string method
+    def __str__(self):
+        return self.text
